@@ -73,16 +73,16 @@ ANEXO_D_TAB = tab("Ferramentas de linha de comando para projetos PyQt6",
                   [["pyuic6", "Converte arquivos .ui do Qt Designer em código Python", "PyQt6 (instalado com o pacote)", "11"],
                    ["pylupdate6", "Extrai textos traduzíveis de .py e .ui para arquivos .ts", "PyQt6 (instalado com o pacote)", "13"],
                    ["designer", "Editor visual de formulários (Qt Designer)", "Ferramentas do Qt ou pyside6-designer", "11"],
-                   ["linguist", "Editor de traduções (.ts) para tradutores", "Ferramentas do Qt (instalador oficial ou distribuição)", "13"],
+                   ["linguist", "Editor de traduções (.ts) para tradutores", "Ferramentas do Qt ou pyside6-linguist", "13"],
                    ["lrelease", "Compila .ts em .qm", "Ferramentas do Qt ou pyside6-lrelease", "13"]],
                   [1600, 3671, 2900, 900])
 
 ANEXO_D = flat(
     p("O PyQt6 instala apenas `pyuic6` e `pylupdate6` (registrados como *entry points* do pacote, verificado na "
       "versão 6.12.0). As demais ferramentas pertencem ao Qt e podem ser obtidas pelo instalador oficial, pelos "
-      "pacotes da distribuição Linux; o pacote PySide6-Essentials 6.12.0 inclui `pyside6-designer` e "
-      "`pyside6-lrelease` (este usado no Capítulo 13), mas não o Linguist. Ferramentas do Qt operam sobre arquivos (`.ui`, `.ts`, "
-      "`.qm`) independentes do binding, por isso podem ser usadas em projetos PyQt6."),
+      "pacotes da distribuição Linux ou pelo pacote PySide6-Essentials 6.12.0, que inclui `pyside6-designer`, "
+      "`pyside6-linguist` e `pyside6-lrelease` (este usado no Capítulo 13). Ferramentas do Qt operam sobre "
+      "arquivos (`.ui`, `.ts`, `.qm`) independentes do binding, por isso podem ser usadas em projetos PyQt6."),
     ANEXO_D_TAB,
     out("tool_pyuic6", "Saída de pyuic6 --help (PyQt6 6.12.0)"),
     out("tool_pylupdate6", "Saída de pylupdate6 --help (PyQt6 6.12.0)"),
