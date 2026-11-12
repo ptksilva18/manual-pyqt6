@@ -1,0 +1,7 @@
+[source]  published: True
+[replica] state Valid; pressure = 100.0
+[replica] pressureChanged -> 100.0
+[source]  set_reference(0.0) called remotely
+[replica] pressureChanged -> 0.0
+[replica] pressureChanged -> 151.5
+[source]  replica ended with code 0

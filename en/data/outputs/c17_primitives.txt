@@ -1,0 +1,2 @@
+saved: True | 400 x 320
+pixel (100, 70): #eaf1fa (fill of the rectangle)

@@ -1,0 +1,4 @@
+WARNING  qt: [default] warning emitted by the Python code
+ERROR    qt: [default] simulated critical error
+WARNING  qt: [default] QPainter::begin: Paint device returned engine == 0, type: 2
+INFO     app: application finished normally

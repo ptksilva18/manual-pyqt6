@@ -1,0 +1,8 @@
+Run 1: start() runs in thread: GUI
+  work() runs in thread: integrator-1
+  result = 1.5707963268 (exact: pi/2 = 1.5707963268)
+  thread finished; label: 'Integral = 1.5707963268'; bar: 100 %
+Run 2: start() runs in thread: GUI
+  work() runs in thread: integrator-2
+  user cancels at 40 % (slot in thread: GUI)
+  thread finished; label: 'Canceled'; bar: 42 %

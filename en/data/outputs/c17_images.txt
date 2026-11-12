@@ -1,0 +1,6 @@
+formats: Format_RGB32 -> Format_Grayscale8
+resized: 64 x 16
+pixel (200, 10): (200, 74, 55)
+QPixmap: 256 x 64 | depth: 32
+text elided to 150 px: Integrity rep…rilling riser
+line height: 15 px

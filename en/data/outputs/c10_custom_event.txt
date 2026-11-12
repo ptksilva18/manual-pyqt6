@@ -1,0 +1,5 @@
+registered type >= User? True
+postEvent returned
+customEvent: measurement 2.0
+sendEvent returned
+customEvent: measurement 1.0

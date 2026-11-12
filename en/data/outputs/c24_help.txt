@@ -1,0 +1,8 @@
+registerDocumentation: True; namespace: org.example.tests.1.0
+Registered documentation: ['org.example.tests.1.0']
+Index 'QThread' -> 'Concurrency and threads': qthelp://org.example.tests.1.0/doc/threads.html#qthread
+Index 'leak test' -> 'Leak test': qthelp://org.example.tests.1.0/doc/leak_test.html
+fileData(): 312 bytes; contains 'moveToThread': True
+Title displayed: Concurrency and threads
+Search 'pressure': 1 result(s)
+  Leak test — leak_test.html

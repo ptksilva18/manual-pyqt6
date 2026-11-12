@@ -1,0 +1,4 @@
+ERROR exception in thread exporter: ZeroDivisionError: division by zero
+ERROR unhandled exception:
+KeyError: 'PT-102'
+INFO the application kept running after the errors

@@ -1,0 +1,6 @@
+sorted by pressure (desc): ['XT-07', 'BOP-01', 'BOP-02']
+filter ^BOP: ['BOP-01', 'BOP-02']
+^BOP and >= 320 bar: ['BOP-01']
+proxy row 0 = row 1 of the source model
+transposed: 3 x 3 | row 0: ['BOP-02', 'BOP-01', 'XT-07']
+concatenated: ['BOP-02', 'BOP-01', 'XT-07', 'MPD-01']

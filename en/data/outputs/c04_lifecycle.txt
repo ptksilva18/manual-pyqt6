@@ -1,0 +1,4 @@
+quitOnLastWindowClosed = True
+title: Single window | Engineering Calculator
+aboutToQuit: save the settings here
+event loop finished; code = 0

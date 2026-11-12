@@ -1,0 +1,4 @@
+Fake view  (345.0, 344.0, 0.5) -> result: Drop 1.00 bar (0.290 %) — PASSED (passed=True)
+Fake view  (345.0, 342.0, 0.5) -> result: Drop 3.00 bar (0.870 %) — FAILED (passed=False)
+Fake view  (0.0, 0.0, 0.5) -> error: initial pressure must be positive
+Real view  -> label: Drop 1.00 bar (0.290 %) — PASSED

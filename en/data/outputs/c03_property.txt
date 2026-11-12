@@ -1,0 +1,6 @@
+signal levelChanged -> 12.5
+signal levelChanged -> 50.0
+property('level') = 50.0
+property('capacity') = None
+'level' in the QMetaObject? True
+'capacity' in the QMetaObject? False

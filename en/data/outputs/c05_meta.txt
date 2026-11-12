@@ -1,0 +1,6 @@
+class: Valve
+declared properties: ['opening']
+declared signals/slots: ['openingChanged(int)', 'close()']
+opening = 100
+button's dynamic properties: ['dangerous']
+dangerous = True

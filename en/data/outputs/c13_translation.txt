@@ -1,0 +1,5 @@
+before: Pipe check | Test pressure: 345 bar | Report generated
+app loaded? True
+qtbase loaded? True
+after: Verificação de tubo | Pressão de teste: 345 bar | Relatório gerado
+Qt's buttons: ['Salvar', 'Cancelar']

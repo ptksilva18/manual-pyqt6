@@ -1,0 +1,7 @@
+3 concurrent queries in 0.30 s (sequentially it would take 0.60 s)
+  PT-101: 103.0
+  PT-102: 102.0
+  TT-201: 101.0
+to_thread: sum of squares = 2666664666667000000
+wait_for: the query to PT-999 exceeded 0.2 s and was canceled
+Window label: 'PT-101=103.0 | PT-102=102.0 | TT-201=101.0'

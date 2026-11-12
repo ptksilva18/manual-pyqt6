@@ -1,0 +1,3 @@
+/data/report.pdf: accepted? False
+/data/bop_test.csv: accepted? True
+label: /data/bop_test.csv

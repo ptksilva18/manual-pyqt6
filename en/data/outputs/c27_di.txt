@@ -1,0 +1,3 @@
+Config: Config(name='Test Monitor', pressure_unit='bar', backend='memory', file='tests.sqlite', allowable_drop_pct=0.3)
+[memory] MemoryRepository: passed = [True, False]; records = [('TH-01', 0.29), ('TH-02', 0.435)]
+[sqlite] SQLiteRepository: passed = [True, False]; records = [('TH-01', 0.29), ('TH-02', 0.435)]

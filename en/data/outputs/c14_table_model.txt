@@ -1,0 +1,7 @@
+cell (1,1) displayed: 310.5
+edit -10 accepted? False
+dataChanged rows 1..1
+edit 320 accepted? True
+dataChanged rows 2..2
+rows: ['BOP-01', 'BOP-02', 'BOP-03']
+after removing the 1st: ['BOP-02', 'BOP-03']

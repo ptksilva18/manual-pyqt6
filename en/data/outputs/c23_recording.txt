@@ -1,0 +1,4 @@
+Containers for recording: ['AVI', 'Matroska', 'MPEG4', 'Ogg', 'QuickTime', 'Mpeg4Audio', 'AAC', 'FLAC', 'Wave']
+Audio codecs: ['AAC', 'AC3', 'EAC3', 'FLAC', 'Wave', 'ALAC']
+Cameras: 0; microphones: 0
+Recorded: record.wav — 16000 Hz, 1 channel, 16000 frames (1.00 s); duration() = 1000 ms

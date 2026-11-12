@@ -1,0 +1,6 @@
+available drivers: ['QPSQL', 'QSQLITE', 'QOCI', 'QMIMER', 'QIBASE', 'QODBC', 'QMARIADB', 'QMYSQL']
+last inserted id: 3
+  BOP-01     345.0 bar
+  XT-07      690.0 bar
+error: ConnectionError | UNIQUE constraint failed: test.tag
+records after rollback: 3

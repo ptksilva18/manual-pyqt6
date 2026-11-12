@@ -1,0 +1,3 @@
+system scheme: Unknown
+button background color: #2b2d31
+disabled text: #6b6e74

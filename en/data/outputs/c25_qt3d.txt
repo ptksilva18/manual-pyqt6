@@ -1,0 +1,2 @@
+Components of the entity: ['QCuboidMesh', 'QPhongMaterial', 'QTransform']
+Children of the root: ['QEntity', 'QPhongMaterial', 'QOrbitCameraController']

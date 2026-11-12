@@ -1,0 +1,3 @@
+QSS applied (characters): 1128
+dynamic property dangerous = True
+re-polished after changing the property

@@ -11,19 +11,21 @@ SPDX-FileCopyrightText = "2026 Patrick Silva Oliveira"
 SPDX-License-Identifier = "GPL-3.0-only"
 
 [[annotations]]
-path = ["**.md", "data/outputs/**", "data/figs/**", "img/**", "data/pyqt6_catalog.json", "CITATION.cff"]
+path = ["**.md", "data/outputs/**", "data/figs/**", "en/data/outputs/**", "en/data/figs/**", "img/**",
+        "data/pyqt6_catalog.json", "CITATION.cff"]
 precedence = "override"
 SPDX-FileCopyrightText = "2026 Patrick Silva Oliveira"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
-path = ["data/figs/f11_1_designer.png", "data/figs/raw_designer_xvfb.png"]
+path = ["data/figs/f11_1_designer.png", "data/figs/raw_designer_xvfb.png",
+        "en/data/figs/f11_1_designer.png", "en/data/figs/raw_designer_xvfb.png"]
 precedence = "override"
 SPDX-FileCopyrightText = ["2026 Patrick Silva Oliveira", "The Qt Company Ltd. (interface do Qt Designer)"]
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
-path = "data/listings/resources/fonts/DejaVuSansMono.ttf"
+path = ["data/listings/resources/fonts/DejaVuSansMono.ttf", "en/data/listings/resources/fonts/DejaVuSansMono.ttf"]
 precedence = "override"
 SPDX-FileCopyrightText = "2003 Bitstream, Inc. (DejaVu changes are in public domain)"
 SPDX-License-Identifier = "Bitstream-Vera"

@@ -1,0 +1,9 @@
+test_backspace_fixes_typing (__main__.CalculatorTests.test_backspace_fixes_typing) ... ok
+test_enter_key (__main__.CalculatorTests.test_enter_key) ... ok
+test_keyboard_and_mouse (__main__.CalculatorTests.test_keyboard_and_mouse) ... ok
+test_model_honors_contract (__main__.ModelTests.test_model_honors_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.015s
+
+OK

@@ -1,0 +1,5 @@
+available styles: ['Windows', 'Fusion']
+default style: fusion
+scroll bar (Fusion): 14
+scroll bar (proxy):  20
+toolbar icons (proxy): 32

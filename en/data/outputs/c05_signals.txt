@@ -1,0 +1,8 @@
+panel: 250.0 bar
+log: 250.0
+panel: 310.0 bar
+log: 310.0
+ALARM at PT-101: 310.0 bar
+raw int: 4095
+raw str: 0x0FFF
+log: 100.0

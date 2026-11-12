@@ -1,0 +1,8 @@
+System tray available: False; messages supported: True
+  no tray: use an ordinary window or notifications in the interface itself
+  internal handler: host='tests', path='/TH-01', query='tab=charts'
+openUrl(engapp://...) -> True
+QCameraPermission      Granted
+QMicrophonePermission  Granted
+QLocationPermission    Granted
+requestPermission(location, precise) -> Granted

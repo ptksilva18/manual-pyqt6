@@ -1,0 +1,3 @@
+original list after the constructor: ['app.py', 'report.csv', '--verbose']
+app.arguments():                     ['app.py', 'report.csv', '--verbose']
+style in use: fusion

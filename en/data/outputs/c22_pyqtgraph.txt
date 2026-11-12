@@ -1,0 +1,3 @@
+pyqtgraph 0.14.0: 150 frames in 3.0 s (~50 frames/s; target 50)
+Data window: 2000 points, t = [1.000; 2.999] s
+Total time in the event loop: 3.0 s

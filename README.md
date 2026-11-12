@@ -1,113 +1,123 @@
-# Manual Profissional de Python com Interface Gráfica (PyQt6)
+# Professional Python GUI Development Manual (PyQt6)
 
-**MAN-PYQT6-001 · Rev. 0** — desenvolvimento de aplicações desktop com PyQt6, do zero ao avançado.
+**MAN-PYQT6-001 · Rev. 0** — building desktop applications with PyQt6, from zero to advanced.
+Available in **English** and in **Brazilian Portuguese** · [Leia em português](README.pt-BR.md)
 
-[![Código: GPL-3.0-only](https://img.shields.io/badge/c%C3%B3digo-GPL--3.0--only-blue)](LICENSES/GPL-3.0-only.txt)
-[![Texto: CC BY-SA 4.0](https://img.shields.io/badge/texto-CC%20BY--SA%204.0-lightgrey)](LICENSES/CC-BY-SA-4.0.txt)
-[![REUSE](https://img.shields.io/badge/REUSE-conforme-green)](REUSE.toml)
+[![Code: GPL-3.0-only](https://img.shields.io/badge/code-GPL--3.0--only-blue)](LICENSES/GPL-3.0-only.txt)
+[![Text: CC BY-SA 4.0](https://img.shields.io/badge/text-CC%20BY--SA%204.0-lightgrey)](LICENSES/CC-BY-SA-4.0.txt)
+[![REUSE](https://img.shields.io/badge/REUSE-compliant-green)](REUSE.toml)
 
-Um manual didático em português que vai do primeiro `QApplication` até uma aplicação técnica completa,
-testada e empacotada. Cada listagem de código foi **executada e verificada**: a saída impressa no
-manual é a saída real do programa.
+A teaching manual that goes from the first `QApplication` to a complete technical application, tested
+and packaged. Every code listing was **run and verified**: the output printed in the manual is the
+program's actual output. The English edition is a full localization, not just a text translation:
+identifiers, comments, messages and outputs were translated, every listing was run again in its
+English form, and the screenshots and diagrams were regenerated from the English code.
 
-| | |
-|---|---|
-| Páginas | 408 |
-| Listagens de código | 169 (139 executadas diretamente, 24 verificadas por outra listagem, 4 de apoio, 2 só para Windows) |
-| Figuras / tabelas | 36 / 99 |
-| Versões de referência | Python ≥ 3.10 (testado com 3.13) · PyQt6 6.12.0 · Qt 6.12 LTS |
+| | English edition | Portuguese edition (pt-BR) |
+|---|---|---|
+| Pages | 407 | 408 |
+| Code listings | 169 | 169 |
+| — run directly / verified by another listing / support / Windows only | 139 / 24 / 4 / 2 | 139 / 24 / 4 / 2 |
+| Figures / tables | 36 / 99 | 36 / 99 |
+| Reference versions | Python ≥ 3.10 (tested with 3.13) · PyQt6 6.12.0 · Qt 6.12 LTS | same |
 
-## Baixar o manual
+Both editions have the same structure: identical numbering of chapters, sections, figures, tables and
+listings, so a reference such as "Listing 20.2" points to the same example in either language.
 
-O PDF e o DOCX ficam na página de **[Releases](https://github.com/ptksilva18/manual-pyqt6/releases/latest)**.
+## Download the manual
 
-## Conteúdo
+The PDF and DOCX of both editions are on the **[Releases](https://github.com/ptksilva18/manual-pyqt6/releases/latest)**
+page.
 
-- **Parte I — Fundamentos (Cap. 1–10):** ecossistema Qt, ambiente, Python essencial para interfaces,
-  primeira aplicação, `QObject`/sinais e slots, widgets, layouts, `QMainWindow`, diálogos e eventos.
-- **Parte II — Interface profissional (Cap. 11–19):** Qt Designer, estilos e temas, recursos e
-  internacionalização, Model/View, QtSql, arquivos e processos, QPainter/impressão/SVG,
-  Graphics View, animações e máquinas de estado.
-- **Parte III — Desenvolvimento avançado (Cap. 20–26):** concorrência e asyncio, redes e dispositivos
-  (serial, TLS), visualização científica, multimídia, web e ajuda integrada, OpenGL/Vulkan/3D, QML.
-- **Parte IV — Qualidade, arquitetura e distribuição (Cap. 27–30):** arquitetura em camadas (MVP/MVVM,
-  injeção de dependências, plugins), testes com pytest-qt, desempenho e acessibilidade,
-  empacotamento com PyInstaller e cx_Freeze.
-- **Parte V — Projeto integrador (Cap. 31):** monitor de ensaios de estanqueidade com SQLite,
-  análise em segundo plano, gráfico, relatório PDF, testes e executável.
-- **Anexos:** catálogo de classes do PyQt6 6.12 por módulo, namespace `Qt` e enums, Qt Style Sheets,
-  ferramentas de linha de comando. Também há referências e glossário.
+## Contents
 
-## Estrutura do repositório
+- **Part I — Fundamentals (Ch. 1–10):** the Qt ecosystem, environment, essential Python for GUIs, first
+  application, `QObject`/signals and slots, widgets, layouts, `QMainWindow`, dialogs and events.
+- **Part II — Professional interface (Ch. 11–19):** Qt Designer, styles and themes, resources and
+  internationalization, Model/View, QtSql, files and processes, QPainter/printing/SVG, Graphics View,
+  animations and state machines.
+- **Part III — Advanced development (Ch. 20–26):** concurrency and asyncio, networking and devices
+  (serial, TLS), scientific visualization, multimedia, web and integrated help, OpenGL/Vulkan/3D, QML.
+- **Part IV — Quality, architecture and distribution (Ch. 27–30):** layered architecture (MVP/MVVM,
+  dependency injection, plugins), testing with pytest-qt, performance and accessibility, packaging with
+  PyInstaller and cx_Freeze.
+- **Part V — Capstone project (Ch. 31):** a leak test monitor with SQLite, background analysis, chart,
+  PDF report, tests and a standalone executable.
+- **Annexes:** catalog of PyQt6 6.12 classes by module, the `Qt` namespace and enums, Qt Style Sheets,
+  command-line tools. References and glossary are included as well.
+
+## Repository layout
 
 ```
-data/listings/      código de todas as listagens (cNN_* = Capítulo NN) — ver INDICE.md
-data/listings/c30_app/   aplicação de exemplo do Capítulo 30 (empacotamento)
-data/listings/c31_app/   projeto integrador do Capítulo 31
-data/outputs/       saídas reais capturadas pelo runner.py (impressas no manual)
-data/figs/, img/    figuras e capa
-runner.py           executa as listagens em modo headless e grava as saídas
-build.py, part*.py  gerador do documento Word (ver GERADOR.md)
+en/data/listings/      English edition: code of every listing (cNN_* = Chapter NN) — see INDEX.md
+en/data/listings/c31_app/   capstone project, English (package "leaktest")
+en/data/outputs/       actual outputs of the English listings (printed in the manual)
+data/listings/         Portuguese edition: code of every listing — see INDICE.md
+data/listings/c31_app/ capstone project, Portuguese (package "ensaios")
+data/outputs/          actual outputs of the Portuguese listings
+data/figs/, en/data/figs/, img/   figures and cover
+runner.py              runs the listings headless and records the outputs
+build.py, part*.py     document generator (Portuguese text); en/*.py holds the English text
 ```
 
-O arquivo [`data/listings/INDICE.md`](data/listings/INDICE.md) relaciona cada número de listagem
-ao arquivo correspondente.
+[`en/data/listings/INDEX.md`](en/data/listings/INDEX.md) maps each listing number to its file
+(Portuguese: [`data/listings/INDICE.md`](data/listings/INDICE.md)).
 
-## Rodar os exemplos
+## Running the examples
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
 
-python data/listings/c04_primeira.py      # abre a primeira janela do Capítulo 4
+python en/data/listings/c04_first.py      # opens the first window of Chapter 4
 ```
 
-Projeto integrador (Capítulo 31):
+Capstone project (Chapter 31):
 
 ```bash
-cd data/listings/c31_app
-python -m ensaios                  # abre a aplicação
-python -m pytest -q                # 13 testes
-cd ../../..
-python data/listings/c31_entrega.py   # testes + autoteste + PyInstaller + autoteste do executável
+cd en/data/listings/c31_app
+python -m leaktest                 # opens the application
+python -m pytest -q                # 13 tests
+cd ../../../..
+python en/data/listings/c31_delivery.py   # tests + self-test + PyInstaller + self-test of the executable
 ```
 
-Para executar **todas** as listagens sem tela (Linux), use `python runner.py` ou
-`python runner.py <filtro>` (por exemplo, `python runner.py c21`). Algumas listagens das Partes III e IV
-precisam de ferramentas do sistema (Xvfb, socat, dbus); a lista completa está em
-[GERADOR.md](GERADOR.md). O certificado de **teste** usado pela Listagem 21.4 é gerado
-automaticamente pelo `runner.py` (a chave privada não é versionada).
+To run **all** the listings without a display (Linux), use `MANUAL_LANG=en python runner.py`, or
+`MANUAL_LANG=en python runner.py <filter>` (for example, `MANUAL_LANG=en python runner.py c21`); without
+`MANUAL_LANG`, the runner uses the Portuguese edition. Some listings of Parts III and IV need system
+tools (Xvfb, socat, dbus); the full list is in [GENERATOR.md](GENERATOR.md). The **test** certificate
+used by Listing 21.4 is generated automatically by `runner.py` (the private key is not versioned).
 
-## Licença
+## License
 
-| O quê | Licença |
+| What | License |
 |---|---|
-| Código: listagens, projeto integrador, gerador do documento | [GPL-3.0-only](LICENSES/GPL-3.0-only.txt), a mesma do PyQt6 |
-| Texto, figuras, tabelas e saídas de exemplo (manual em PDF/DOCX e arquivos `.md`) | [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt) |
-| Fonte `DejaVuSansMono.ttf` (usada por uma listagem) | [Bitstream Vera](LICENSES/Bitstream-Vera.txt) (alterações DejaVu em domínio público) |
+| Code: listings, capstone project, document generator | [GPL-3.0-only](LICENSES/GPL-3.0-only.txt), the same as PyQt6 |
+| Text, figures, tables and example outputs (manual in PDF/DOCX and `.md` files) | [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt) |
+| `DejaVuSansMono.ttf` font (used by one listing) | [Bitstream Vera](LICENSES/Bitstream-Vera.txt) (DejaVu changes in the public domain) |
 
-As listagens impressas no manual também são GPL-3.0-only. O detalhamento arquivo a arquivo está em
-[`REUSE.toml`](REUSE.toml), no padrão [REUSE](https://reuse.software/).
+The listings printed in the manual are GPL-3.0-only as well. The file-by-file detail is in
+[`REUSE.toml`](REUSE.toml), following the [REUSE](https://reuse.software/) standard.
 
-**Se você for distribuir uma aplicação feita com PyQt6:** o PyQt6 é oferecido pela Riverbank Computing
-sob GPL v3 ou licença comercial (não sob LGPL). Uma aplicação distribuída a terceiros com o PyQt6 sob
-GPL precisa ser distribuída sob licença compatível com a GPL v3, com o código-fonte disponível. Para
-código fechado, é necessária a licença comercial — veja o
-[FAQ da Riverbank](https://www.riverbankcomputing.com/commercial/license-faq). Uso pessoal, estudo
-e ferramentas internas não distribuídas não disparam essas obrigações. *Isto não é aconselhamento
-jurídico.*
+**If you distribute an application made with PyQt6:** PyQt6 is offered by Riverbank Computing under the
+GPL v3 or a commercial license (not under the LGPL). An application distributed to third parties with
+PyQt6 under the GPL must be distributed under a license compatible with the GPL v3, with the source code
+available. For closed source, the commercial license is required — see the
+[Riverbank FAQ](https://www.riverbankcomputing.com/commercial/license-faq). Personal use, study and
+internal tools that are not distributed do not trigger these obligations. *This is not legal advice.*
 
-Marcas e materiais de terceiros: ver [AVISOS.md](AVISOS.md).
+Trademarks and third-party material: see [NOTICE.md](NOTICE.md).
 
-## Como citar
+## How to cite
 
-OLIVEIRA, P. S. *Manual Profissional de Python com Interface Gráfica* (MAN-PYQT6-001), Rev. 0. 2026.
-Disponível em: https://github.com/ptksilva18/manual-pyqt6. Licença CC BY-SA 4.0.
+OLIVEIRA, P. S. *Professional Python GUI Development Manual* (MAN-PYQT6-001), Rev. 0. 2026.
+Available at: https://github.com/ptksilva18/manual-pyqt6. License CC BY-SA 4.0.
 
-Os metadados estão em [`CITATION.cff`](CITATION.cff); o GitHub mostra o botão “Cite this repository”.
+The metadata is in [`CITATION.cff`](CITATION.cff); GitHub shows the "Cite this repository" button.
 
-## Contribuições
+## Contributing
 
-Encontrou um erro, um trecho pouco claro ou um exemplo que não roda na sua plataforma? Abra uma
-*issue* informando o sistema, a versão do Python e do PyQt6 e a listagem envolvida.
+Found an error, an unclear passage or an example that does not run on your platform? Open an *issue*
+stating the operating system, the Python and PyQt6 versions, the edition (English or Portuguese) and the
+listing involved.

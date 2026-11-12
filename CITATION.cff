@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Se usar este manual ou o seu código, cite-o como indicado abaixo."
+message: "If you use this manual or its code, please cite it as below. / Se usar este manual ou o seu código, cite-o como indicado abaixo."
 type: software
-title: "Manual Profissional de Python com Interface Gráfica (MAN-PYQT6-001)"
+title: "Professional Python GUI Development Manual (MAN-PYQT6-001)"
 abstract: >-
-  Manual didático em português de desenvolvimento de aplicações desktop com Python e PyQt6,
-  do zero ao avançado, com 169 listagens executadas e verificadas, projeto integrador testado
-  e empacotado, e o gerador do documento.
+  Teaching manual on developing desktop applications with Python and PyQt6, from zero to
+  advanced, in English and Brazilian Portuguese (fully localized editions with the same
+  structure), with 169 run-and-verified listings per edition, a tested and packaged capstone
+  project, and the document generator.
 authors:
   - family-names: "Oliveira"
     given-names: "Patrick Silva"
@@ -23,3 +24,11 @@ keywords:
   - GUI
   - desktop
   - manual
+references:
+  - type: book
+    title: "Manual Profissional de Python com Interface Gráfica (MAN-PYQT6-001), edição pt-BR"
+    authors:
+      - family-names: "Oliveira"
+        given-names: "Patrick Silva"
+    languages:
+      - pt

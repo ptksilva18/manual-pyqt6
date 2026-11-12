@@ -1,0 +1,4 @@
+composition: OK
+inheritance: OK
+field via composition: nameField
+field via inheritance: nameField

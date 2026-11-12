@@ -14,7 +14,7 @@ def fig_20_1():
     label(d, (440, 66), "Thread da GUI (principal)", 38, NAVY, bold=True)
     label(d, (1560, 66), "QThread (event loop próprio)", 38, GREEN, bold=True)
     box(d, (70, 130, 810, 310), ["Janela / Controlador", "cria QThread e worker; moveToThread()"], "blue")
-    box(d, (70, 400, 810, 560), ["Slots da GUI", "ao_progresso, ao_resultado, ao_erro"], "blue")
+    box(d, (70, 400, 810, 560), ["Slots da GUI", "ao_progresso, ao_resultado, erro → rótulo"], "blue")
     box(d, (70, 650, 810, 810), ["requestInterruption()", "quit() + wait() no fechamento"], "orange")
     box(d, (1190, 130, 1930, 310), ["Worker (QObject)", "executar(): laço com verificação"], "green")
     box(d, (1190, 400, 1930, 560), ["Sinais emitidos", "progresso, resultado, erro, finalizado"], "green")

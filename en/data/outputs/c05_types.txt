@@ -1,0 +1,12 @@
+QPoint sum: 15 25
+QRect contains (150, 50)? True
+center: 99 49
+right(): 199 | width(): 200
+translated (10, 10): 10 10
+QSize scaled keeping the aspect ratio: 800 x 450
+ISO date: 2026-11-11
++90 days: 2027-02-09
+day of the week (1=Mon): 3
+duration (h): 33.5
+host: doc.qt.io | path: /qt-6/qobject.html | fragment: signals
+local file: file:///data/test.csv

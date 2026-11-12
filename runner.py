@@ -29,7 +29,7 @@ import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from i18n import DATA_DIR  # noqa: E402  (MANUAL_LANG=en -> en/data)
+from i18n import DATA_DIR, LANG  # noqa: E402  (MANUAL_LANG=en -> en/data)
 
 LST = os.path.join(DATA_DIR, "listings")
 OUT = os.path.join(DATA_DIR, "outputs")
@@ -126,6 +126,9 @@ def _ensure_xvfb():
 
 
 TLS_DIR = os.path.join(LST, "resources", "tls")
+TLS_NAME = "server" if LANG == "en" else "servidor"   # nome do certificado/chave por idioma
+SERIAL_ENV = "SERIAL_PORT" if LANG == "en" else "PORTA_SERIAL"
+TLS_ORG = "PyQt6 Manual (example)" if LANG == "en" else "Manual PyQt6 (exemplo)"
 
 
 def _garantir_certificado_tls():
@@ -134,14 +137,14 @@ def _garantir_certificado_tls():
     A chave privada nao e versionada no repositorio; o comando e o mesmo mostrado no
     Capitulo 21. Nao use este certificado fora do exemplo.
     """
-    crt = os.path.join(TLS_DIR, "servidor.crt")
-    key = os.path.join(TLS_DIR, "servidor.key")
+    crt = os.path.join(TLS_DIR, TLS_NAME + ".crt")
+    key = os.path.join(TLS_DIR, TLS_NAME + ".key")
     if os.path.exists(crt) and os.path.exists(key):
         return
     os.makedirs(TLS_DIR, exist_ok=True)
     subprocess.run(["openssl", "req", "-x509", "-newkey", "rsa:2048", "-nodes", "-days", "3650",
                     "-keyout", key, "-out", crt,
-                    "-subj", "/CN=localhost/O=Manual PyQt6 (exemplo)",
+                    "-subj", f"/CN=localhost/O={TLS_ORG}",
                     "-addext", "subjectAltName=DNS:localhost,IP:127.0.0.1"],
                    check=True, capture_output=True)
 
@@ -170,7 +173,7 @@ def run_one(path):
                 if os.path.exists(a) and os.path.exists(b):
                     break
                 time.sleep(0.1)
-            env["PORTA_SERIAL"] = a
+            env[SERIAL_ENV] = a
             sim = os.path.join(tmp, "_instrumento.py")
             open(sim, "w", encoding="utf-8").write(SIM_INSTRUMENTO)
             procs.append(subprocess.Popen([sys.executable, sim, b]))

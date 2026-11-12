@@ -1,0 +1,3 @@
+rows: 4
+label of the name field: Well &name:
+is the buddy the field? True

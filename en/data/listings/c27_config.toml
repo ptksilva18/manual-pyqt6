@@ -1,0 +1,12 @@
+# Application configuration (read with tomllib; values can be overridden by environment
+# variables with the TESTS_ prefix).
+[application]
+name = "Test Monitor"
+pressure_unit = "bar"
+
+[persistence]
+backend = "memory"           # "memory" or "sqlite"
+file = "tests.sqlite"
+
+[limits]
+allowable_drop_pct = 0.5

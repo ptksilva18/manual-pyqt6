@@ -1,0 +1,11 @@
+Available position sources: ['geoclue2', 'nmea']
+12:00:00 22° 30.000' S, 40° 0.000' W, 12m | 8.1 kn, course 48.0° | to the reference  16.6 m
+12:00:01 22° 29.999' S, 39° 59.998' W, 12m | 8.1 kn, course 48.0° | to the reference  12.5 m
+12:00:02 22° 29.997' S, 39° 59.996' W, 12m | 8.1 kn, course 48.0° | to the reference   8.3 m  [10 m zone]
+12:00:03 22° 29.996' S, 39° 59.995' W, 12m | 8.1 kn, course 48.0° | to the reference   4.2 m  [10 m zone]
+12:00:04 22° 29.994' S, 39° 59.993' W, 12m | 8.1 kn, course 48.0° | to the reference   0.0 m  [10 m zone]
+12:00:05 22° 29.992' S, 39° 59.991' W, 12m | 8.1 kn, course 48.0° | to the reference   4.2 m  [10 m zone]
+12:00:06 22° 29.991' S, 39° 59.989' W, 12m | 8.1 kn, course 48.0° | to the reference   8.3 m  [10 m zone]
+12:00:07 22° 29.990' S, 39° 59.987' W, 12m | 8.1 kn, course 48.0° | to the reference  12.5 m
+8 positions; displacement 29.1 m, azimuth 47.9°
+Midpoint: -22.499913, -39.999895

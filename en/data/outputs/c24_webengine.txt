@@ -1,0 +1,5 @@
+  [console InfoMessageLevel] page loaded: 3 rows
+loadFinished: True; title: 'Report TH-01'
+runJavaScript -> '344.2'
+  navigation blocked: https://example.com/ (NavigationTypeLinkClicked)
+printToPdf: success=True, 50552 bytes, header b'%PDF-'

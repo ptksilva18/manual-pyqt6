@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>org.example.tests.1.0</namespace>
+  <virtualFolder>doc</virtualFolder>
+  <filterSection>
+    <toc>
+      <section title="Test application manual" ref="index.html">
+        <section title="Concurrency and threads" ref="threads.html"/>
+        <section title="Leak test" ref="leak_test.html"/>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="QThread" id="tests.qthread" ref="threads.html#qthread"/>
+      <keyword name="worker" ref="threads.html#worker"/>
+      <keyword name="leak test" id="tests.leak_test" ref="leak_test.html"/>
+    </keywords>
+    <files>
+      <file>index.html</file>
+      <file>threads.html</file>
+      <file>leak_test.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>

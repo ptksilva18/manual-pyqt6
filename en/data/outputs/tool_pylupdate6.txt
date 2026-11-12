@@ -1,0 +1,18 @@
+usage: pylupdate6 [-h] [-V] [--exclude PATTERN] [--no-obsolete] [--no-summary]
+                  --ts FILE [--verbose]
+                  file [file ...]
+
+Python Language Update Tool
+
+positional arguments:
+  file                  the .py or .ui file, or directory to be read
+
+options:
+  -h, --help            show this help message and exit
+  -V, --version         show program's version number and exit
+  --exclude PATTERN     exclude matching files when reading a directory
+  --no-obsolete, -no-obsolete
+                        remove any obsolete translated messages
+  --no-summary          suppress the summary
+  --ts, -ts FILE        a .ts file to update or create
+  --verbose             show progress messages

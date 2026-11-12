@@ -1,0 +1,4 @@
+fileChanged: parameters.txt
+synchronous -> 690 | code: 0
+stdout: output ok
+finished: code 3 | NormalExit

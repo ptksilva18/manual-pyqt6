@@ -1,0 +1,6 @@
+after 3 edits of PT-101:   {'PT-101': 104.0, 'PT-102': 50.0} | index 1/1 | clean=False | undo: 'PT-101 = 104 bar'
+after macro:               {'PT-101': 0.0, 'PT-102': 0.0} | index 2/2 | clean=False | undo: 'Zero all'
+undo (whole macro):        {'PT-101': 104.0, 'PT-102': 50.0} | index 1/2 | clean=True | undo: 'PT-101 = 104 bar'
+undo:                      {'PT-101': 100.0, 'PT-102': 50.0} | index 0/2 | clean=False | undo: ''
+redo:                      {'PT-101': 104.0, 'PT-102': 50.0} | index 1/2 | clean=True | undo: 'PT-101 = 104 bar'
+Menu action: 'Undo PT-101 = 104 bar' | items in the QUndoView: 3

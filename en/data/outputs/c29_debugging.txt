@@ -1,0 +1,4 @@
+Before the rules: tests.io debug = True
+After: tests.io debug = False | tests.calculation debug = True | tests.io warning = True
+captured: [QtWarningMsg] default: QWidget::setLayout: Attempting to set QLayout "" on QWidget "", which already has a la
+QT_DEBUG_PLUGINS=1: 199 diagnostic lines; plugins loaded: ['libqoffscreen.so']

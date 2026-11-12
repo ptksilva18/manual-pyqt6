@@ -1,0 +1,4 @@
+policy: PassThrough
+screen devicePixelRatio: 1.0
+logical DPI: 96
+logical size of the pixmap: 48 x 48

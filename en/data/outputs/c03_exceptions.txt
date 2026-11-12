@@ -1,0 +1,4 @@
+[UNHANDLED ERROR] ZeroDivisionError: division by zero in the calculation
+  origin: function faulty_slot(), line 20
+The application is still responding.
+exit code: 0

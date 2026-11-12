@@ -1,0 +1,4 @@
+commit: True | content: ['Hydrostatic test', 'Pressure: 345 bar', '']
+magic ok? True | PT-101 | [101.3, 205.7, 344.9]
+read status: Ok
+file size: 48 bytes

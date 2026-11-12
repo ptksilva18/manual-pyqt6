@@ -1,0 +1,3 @@
+BOP index: BOP 18¾" | parent: Rig
+children of the BOP: ['Blind ram', 'Pipe ram', 'Annular']
+model approved by QAbstractItemModelTester

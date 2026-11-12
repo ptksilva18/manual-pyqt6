@@ -1,0 +1,4 @@
+Output mode: Headphone; distanceScale = 100 cm per unit (units in meters)
+Source at (3, 0, -4); distance to the listener = 5.0 m
+Room (12, 3, 8) m; floor: ConcreteBlockPainted
+No audio output device: engine not started.

@@ -1,0 +1,2 @@
+QTextEdit height with a 300 px window: 199
+QTextEdit height with a 500 px window: 399

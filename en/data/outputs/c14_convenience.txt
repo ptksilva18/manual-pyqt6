@@ -1,0 +1,3 @@
+checked in the list: ['PT-101', 'PT-102']
+children of the rig: ['BOP', 'Riser']
+sorted by pressure: ['BOP-02', 'BOP-01']

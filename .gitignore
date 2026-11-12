@@ -16,8 +16,9 @@ build/
 dist/
 *.egg-info/
 
-# Certificado de TESTE gerado por runner.py (nunca versionar chave privada)
+# Certificado de TESTE gerado por runner.py (nunca versionar chave privada) — pt e en
 data/listings/resources/tls/
+en/data/listings/resources/tls/
 
 # Sistema
 .DS_Store

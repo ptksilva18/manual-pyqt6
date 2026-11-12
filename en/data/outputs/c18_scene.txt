@@ -1,0 +1,4 @@
+items in the scene: 6 | valves: ['XV-101', 'XV-102', 'XV-103']
+position snapped to the grid: 210.0 130.0
+collides with: ['QGraphicsRectItem', 'XV-102']
+item at (330, 130): XV-103

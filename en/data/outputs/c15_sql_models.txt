@@ -1,0 +1,5 @@
+QSqlQueryModel: ['BOP-01', 'BOP-02']
+pending changes? True
+submitAll: True
+value in the database: 315.0
+relational: [('BOP-01', 'Hydrostatic'), ('BOP-02', 'Functional')]

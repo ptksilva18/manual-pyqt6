@@ -1,0 +1,3 @@
+Title: ζ = 0.20, ωn = 4.0 rad/s — overshoot 52.7 %
+Theoretical overshoot for ζ = 0.20: 52.7 %
+After ζ = 0.70: ζ = 0.70, ωn = 4.0 rad/s — overshoot 4.6 %

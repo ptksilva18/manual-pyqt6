@@ -1,0 +1,7 @@
+invokeMethod -> task('call from the GUI') executed in: worker
+emit_all() executes in: worker
+  slot of connection DirectConnection          executed in: worker
+  slot of connection AutoConnection            executed in: GUI
+  slot of connection QueuedConnection          executed in: GUI
+  slot of connection BlockingQueuedConnection  executed in: GUI
+  emit_all() continues after BlockingQueued (the slot has already ended)

@@ -1,0 +1,11 @@
+$ pyinstaller --noconfirm monitor_app.spec
+PyInstaller exit code: 0
+folder generated: dist/monitor_app (235 MB)
+contents of _internal/PyQt6/Qt6: ['lib', 'plugins', 'translations']
+resources included: ['theme.qss']
+frozen executable (code 0):
+  frozen: True; PyInstaller: True
+  Qt platform: offscreen
+  QSS theme loaded: 104 characters
+  platform plugins: ['libqeglfs.so', 'libqlinuxfb.so', 'libqminimal.so', 'libqminimalegl.so', 'libqoffscreen.so', 'libqvkkhrdisplay.so', 'libqvnc.so', 'libqwayland.so', 'libqxcb.so']
+  qtbase pt_BR translation loaded: True -> 'Cancel' = 'Cancelar'

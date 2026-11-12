@@ -1,0 +1,4 @@
+Local Bluetooth adapters: 0
+NFC supported on this platform: False
+Supported methods: DiscoveryMethod.ClassicMethod|LowEnergyMethod
+Discovery unavailable: InputOutputError — Cannot find valid Bluetooth adapter.

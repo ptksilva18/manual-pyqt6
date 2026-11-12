@@ -1,7 +1,6 @@
 """Ponto de entrada: python -m ensaios [--autoteste PASTA]."""
 
 import sys
-import tempfile
 from pathlib import Path
 
 from PyQt6.QtCore import QSettings, QStandardPaths, QTimer

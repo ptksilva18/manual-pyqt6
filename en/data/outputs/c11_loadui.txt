@@ -1,0 +1,3 @@
+title coming from the .ui: Well data
+buddy of the label: nameField
+well 'PZ-123', WD = 2140 m

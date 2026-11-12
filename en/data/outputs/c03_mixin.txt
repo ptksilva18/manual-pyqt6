@@ -1,0 +1,2 @@
+("text='ABC'", "text='ABCD'")
+Is it a QLineEdit? True

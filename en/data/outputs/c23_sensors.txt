@@ -1,0 +1,2 @@
+Sensor types with a backend on this machine: []
+Accelerometer unavailable: connectToBackend() = False — the interface should hide the feature or use another data source.

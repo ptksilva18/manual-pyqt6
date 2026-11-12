@@ -1,0 +1,8 @@
+$ python -m pytest c28_test_calculator.py -q --no-header -p no:cacheprovider --cov=c28_calculator --cov-branch --cov-report=term-missing
+Name                Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------
+c28_calculator.py      42      6      6      1    85%   58-63
+---------------------------------------------------------------
+TOTAL                  42      6      6      1    85%
+8 passed in 0.10s
+pytest exit code: 0

@@ -1,0 +1,11 @@
+QWidget: window
+  QVBoxLayout: mainLayout
+  QLineEdit: flowField
+    QObject: (no name)
+  QLineEdit: pressureField
+    QObject: (no name)
+  QPushButton: calculateButton
+findChild: pressureField
+findChildren(QLineEdit): ['flowField', 'pressureField']
+destroyed: button destroyed
+remaining children: ['mainLayout', 'flowField', 'pressureField']

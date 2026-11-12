@@ -1,0 +1,6 @@
+is t.thread() the GUI thread? True
+run() executes in: acquisition
+subclass_slot() executes in: GUI
+run() ended after 15 samples
+wait() returned True; isRunning() = False
+finished emitted; samples received: 15

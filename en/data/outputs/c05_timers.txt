@@ -1,0 +1,3 @@
+periodic readings: [1, 2, 3, 4, 5]
+QBasicTimer: 3 ticks
+elapsed time >= 260 ms? True

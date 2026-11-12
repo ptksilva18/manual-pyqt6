@@ -1,0 +1,9 @@
+wrong: False
+button 0
+partial: 0
+wrong: False
+button 1
+partial: 1
+wrong: False
+button 2
+partial: 2

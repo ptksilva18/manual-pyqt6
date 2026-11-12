@@ -1,0 +1,4 @@
+getDouble -> (1.5, False)
+value after finishing: -1 (autoReset resets it to -1) | canceled? False
+filters: ['Tests (*.json *.csv)', 'All (*)']
+file chosen? False

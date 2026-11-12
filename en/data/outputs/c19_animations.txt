@@ -1,0 +1,5 @@
+final position: 10 10
+final opacity: 1.0 | intermediate updates received? True
+total duration of the sequence: 600 ms
+QTimeLine last frame: 10
+OutBounce at t=0.5: 0.7656

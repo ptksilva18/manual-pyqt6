@@ -1,0 +1,4 @@
+chosen material: <Material.SS_316L: 'Stainless 316L'>
+pipe: OD=273.1 mm, t=12.7 mm, tags=('service line',)
+ID = 247.7 mm
+immutable? True

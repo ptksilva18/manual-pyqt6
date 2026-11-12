@@ -1,0 +1,28 @@
+== 1. tests (pytest + coverage) (code 0)
+  leaktest/__init__.py         1      0   100%
+  leaktest/__main__.py         3      3     0%
+  leaktest/app.py             54     54     0%
+  leaktest/csv_import.py      18      0   100%
+  leaktest/domain.py          56      1    98%
+  leaktest/models.py          54      9    83%
+  leaktest/report.py          36      0   100%
+  leaktest/repository.py      29      0   100%
+  leaktest/services.py        30      5    83%
+  leaktest/window.py         163     22    87%
+  TOTAL                      444     94    79%
+  13 passed in 1.18s
+== 2. self-test from the source code (code 0)
+  test created: id=1; tests in the list: 1
+  readings: 13; Analyze action enabled: True
+  result: passed=True, drop=0.224 bar (0.065 %), rate=0.238 bar/h, p_final_corrected=344.776 bar
+  report: TH-01.pdf, 89291 bytes, header b'%PDF-'
+  panel: PASSED
+== 3. packaging (PyInstaller, onedir) (code 0)
+   package: dist/LeakTestMonitor (364 MB)
+== 4. self-test of the frozen executable (code 0)
+  test created: id=1; tests in the list: 1
+  readings: 13; Analyze action enabled: True
+  result: passed=True, drop=0.224 bar (0.065 %), rate=0.238 bar/h, p_final_corrected=344.776 bar
+  report: TH-01.pdf, 89291 bytes, header b'%PDF-'
+  panel: PASSED
+DELIVERY APPROVED

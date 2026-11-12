@@ -107,7 +107,7 @@ def main() -> int:
     print("Janela:", janela.property("title"))
     print(texto("rotuloPressao"), "|", texto("rotuloVolume"))
     janela.findChild(QObject, "prof").setProperty("value", 2000)
-    tanque = janela.property("tanque")  # via "property alias" declarada no QML
+    tanque = janela.property("tanque")  # via "property QtObject" declarada no QML
     print(
         "Objeto criado pelo QML é instância de Tanque (Python):",
         isinstance(tanque, Tanque),

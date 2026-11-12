@@ -1,0 +1,3 @@
+does label still exist in Python? True
+C++ object destroyed? True
+RuntimeError: wrapped C/C++ object of type QLabel has been deleted

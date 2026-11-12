@@ -1,0 +1,4 @@
+csv.DictReader: [('BOP-01', '345,0'), ('BOP-02', '310,5')]
+pandas dtypes: {'tag': 'str', 'pressure_bar': 'float64', 'date': 'datetime64[us]'}
+mean pressure: 327.75
+model: 2 x 3 | (1, 1): 310.5

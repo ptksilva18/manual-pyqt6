@@ -1,0 +1,11 @@
+resize  -1x-1 -> 300x200
+press   LeftButton at (10, 10)
+move    to (50, 40) buttons=LeftButton
+release LeftButton
+Esc key -> clear selection
+Ctrl+Z -> undo
+resize  300x200 -> 400x250
+close   ignored (there are unsaved changes)
+closed? False
+close   accepted
+closed? True

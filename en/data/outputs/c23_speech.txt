@@ -1,0 +1,10 @@
+Available engines: ['speechd', 'mock']
+Engine: mock; state: Ready
+Languages: ['en_GB', 'en_US', 'nb_NO', 'nn_NO', 'fi_FI']
+Voices: [('Bob', 'Male', 'Adult'), ('Anne', 'Female', 'Adult')]
+Portuguese voices in this engine's current locale: 0
+Chosen voice: Anne (en_GB)
+  state -> Speaking
+Identifiers returned by enqueue(): [0, 1]
+  state -> Ready
+Final state: Ready

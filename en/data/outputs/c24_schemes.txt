@@ -1,0 +1,6 @@
+Off-the-record profile: True
+  interceptor: allowed /index (ResourceTypeMainFrame)
+  interceptor: BLOCKED /tracker.gif (ResourceTypeImage)
+loadFinished: True; title: 'Internal help'
+  download requested: test.csv (text/csv)
+  download DownloadCompleted: 4 lines; last = '60;344.0'

@@ -1,0 +1,6 @@
+3 plugins found (folder + entry points 'pyqt6_manual.plugins')
+  failed    'Broken plugin': RuntimeError: failed to initialize the plugin hardware
+  ignored   'Legacy exporter': API_VERSION=0 (expected 1)
+  activated 'bar → psi converter'
+Plugins menu: ['bar → psi converter']
+Plugin message: 5003.8 psi

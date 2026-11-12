@@ -1,0 +1,5 @@
+1st opening — state restored? False
+title: Test Log [*] | modified? True
+after saving — modified? False
+menus: ['&File', '&View']
+2nd opening — state restored? True

@@ -1,0 +1,7 @@
+TLS support: True | backend: openssl | OpenSSL 3.0.13 30 Jan 2024
+[no CA  ] sslErrors: ['SelfSignedCertificate']
+[no CA  ] error: SslHandshakeFailedError
+[with CA] encrypted channel: TlsV1_3, TLS_AES_256_GCM_SHA384; peer = ['localhost']
+[with CA] received: ACK PING
+[other name] sslErrors: ['HostNameMismatch']
+[other name] error: SslHandshakeFailedError

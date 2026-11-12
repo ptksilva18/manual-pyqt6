@@ -1,0 +1,6 @@
+entered: idle | label: Idle
+entered: pressurizing | label: Pressurizing
+entered: stabilizing | label: Stabilizing
+entered: paused | label: Paused
+entered: stabilizing | label: Stabilizing
+machine finished

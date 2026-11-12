@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>QWebChannel bridge</title>
+  <!-- qwebchannel.js is injected by Python (QWebEngineScript) before this code -->
+</head>
+<body>
+  <h2>Hydrostatic pressure</h2>
+  <label>Depth (m): <input id="depth" type="number" value="1350"></label>
+  <button id="compute">Compute</button>
+  <p>Result: <span id="result">—</span></p>
+  <p>Unit (Python property): <span id="unit"></span></p>
+  <p>Last alert (Python signal): <span id="alert">none</span></p>
+  <script>
+    new QWebChannel(qt.webChannelTransport, function (channel) {
+      const bridge = channel.objects.bridge;          // name used in registerObject()
+      document.getElementById("unit").textContent = bridge.unit;   // property
+      bridge.alert.connect(function (text) {          // Python signal -> JavaScript
+        document.getElementById("alert").textContent = text;
+      });
+      document.getElementById("compute").onclick = function () {
+        const z = parseFloat(document.getElementById("depth").value);
+        bridge.pressure(z, function (p) {             // slot with return value: callback
+          document.getElementById("result").textContent = p.toFixed(2);
+        });
+      };
+      bridge.ready();                                 // notifies Python
+    });
+  </script>
+</body>
+</html>

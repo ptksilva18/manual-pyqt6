@@ -1,0 +1,7 @@
+1) sip.isdeleted(label) = True
+   RuntimeError: wrapped C/C++ object of type QLabel has been deleted
+2) header of a temporary table destroyed? True
+3) visible top-level windows after the function: []
+4) child process ended with code -11; faulthandler reported:
+   Fatal Python error: Segmentation fault
+   File "<string>", line 1 in <module>

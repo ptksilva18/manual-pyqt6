@@ -1,0 +1,2 @@
+deletion confirmed? False
+choice when saving: Discard

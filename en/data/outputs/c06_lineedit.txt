@@ -1,0 +1,8 @@
+validate '345.5'    -> Acceptable
+validate '345.555'  -> Invalid
+validate '700'      -> Intermediate
+validate 'abc'      -> Invalid
+tag 'PT-101' -> Acceptable | acceptable? True
+mask applied: 11/11/2026 | complete? True
+real text: s3cr3t | displayed: ●●●●●●
+suggestions for 'px': ['PX-001', 'PX-002']

@@ -1,0 +1,2 @@
+PressureField | group: Engineering | initialized: True
+widget created: PressureField | domXml: <widget class="PressureField" name="pressureField"/>

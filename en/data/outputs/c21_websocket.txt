@@ -1,0 +1,5 @@
+server: client connected (origin 'http://app.local')
+client: connected -> ws | sending request
+client: text -> {"tag": "PT-101", "n": 5}
+client: binary with 40 bytes -> (100.0, 100.5, 101.0, 101.5, 102.0)
+client: disconnected; code CloseCodeNormal reason 'end of collection'

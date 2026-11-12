@@ -1,0 +1,49 @@
+"""QAxContainer (Windows only): writing results to Microsoft Excel via COM."""
+
+import os
+import sys
+
+from PyQt6.QAxContainer import QAxObject
+from PyQt6.QtCore import QDir
+from PyQt6.QtWidgets import QApplication
+
+DATA = [["Time (min)", "Pressure (bar)"], [0, 345.0], [30, 344.2], [60, 344.0]]
+
+
+def export_to_excel(path: str) -> None:
+    excel = QAxObject("Excel.Application")  # ProgID registered by Office
+    if excel.isNull():
+        raise RuntimeError("Microsoft Excel is not installed or registered")
+    excel.exception.connect(
+        lambda code, source, desc, _help: print(f"COM {code:#x} in {source}: {desc}")
+    )
+    try:
+        excel.setProperty("Visible", False)
+        excel.setProperty("DisplayAlerts", False)
+        workbooks = excel.querySubObject("Workbooks")
+        workbook = workbooks.querySubObject("Add()")
+        sheet = workbook.querySubObject("Worksheets(int)", 1)
+        sheet.setProperty("Name", "Test TH-01")
+        for i, row in enumerate(DATA, start=1):  # one COM call per cell
+            for j, value in enumerate(row, start=1):
+                cell = sheet.querySubObject("Cells(int,int)", i, j)
+                cell.setProperty("Value", value)
+        workbook.dynamicCall("SaveAs(const QString&)", QDir.toNativeSeparators(path))
+        workbook.dynamicCall("Close(bool)", False)
+    finally:
+        excel.dynamicCall("Quit()")  # without Quit(), the EXCEL.EXE process stays open
+
+
+def main() -> int:
+    if sys.platform != "win32":
+        print("QAxContainer exists only in the PyQt6 wheels for Windows.")
+        return 1
+    app = QApplication(sys.argv)  # noqa: F841  (COM in Qt needs the application object)
+    target = os.path.join(os.path.expanduser("~"), "test_TH-01.xlsx")
+    export_to_excel(target)
+    print("Spreadsheet saved to", target)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

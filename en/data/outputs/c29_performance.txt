@@ -1,0 +1,8 @@
+Slow model + resizeColumnsToContents:    185.5 ms
+Cached model, fixed widths          :     69.4 ms (~3x faster)
+One-off cost of pre-formatting 120000 cells: 117.5 ms; resizeColumnsToContents precision: 1000 rows
+cProfile — most expensive Python functions (filter 'data|value'):
+  ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  1    0.009    0.009    0.210    0.210 c29_performance.py:62(measure_painting)
+  65640    0.020    0.000    0.058    0.000 c29_performance.py:34(data)
+  1    0.000    0.000    0.019    0.019 c29_performance.py:24(__init__)

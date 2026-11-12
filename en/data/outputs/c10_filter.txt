@@ -1,0 +1,5 @@
+tagField received focus
+blocked: '1' in tagField
+blocked: '0' in tagField
+final text: PTx
+without the filter: PTx9

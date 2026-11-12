@@ -858,6 +858,8 @@ def license_page_pt():
                   ext_link(REPO_URL), run("."), jc="left"))
     out.append(bp(rich(f"OLIVEIRA, P. S. *{DOC_TITLE}* ({DOC_CODE}), Rev. {DOC_REV}. {DOC_YEAR}. Disponível em: "),
                   ext_link(REPO_URL), run(". Licença CC BY-SA 4.0."), jc="left"))
+    out.append(bp(rich("Uma edição em inglês deste manual está disponível no mesmo repositório."),
+                  jc="left"))
     return out
 
 # ================================================================= TOCs ====

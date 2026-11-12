@@ -1,0 +1,10 @@
+GET /api/wells/7 -> HTTP 200, error = NoError
+  Content-Type: application/json
+  JSON: {'well': '7-ABC-001', 'water_depth_m': 1350.0, 'fluid': 'oil'}
+POST /api/tests -> HTTP 201, error = NoError
+  Location: /api/tests/42
+  JSON: {'test': 'TH-01', 'pressure_bar': 345.0, 'id': 42}
+GET /does/not/exist -> HTTP 404, error = ContentNotFoundError (Error transferring http://127.0.0.1:41995/does/not/exist - server replied: Not Found)
+  error body: {"error": "resource does not exist"}
+GET /slow (timeout 300 ms) -> HTTP None, error = TimeoutError (Operation timed out)
+GET /file -> HTTP 200, error = NoError; 262144 bytes; progress marks (%): [37, 68, 100]

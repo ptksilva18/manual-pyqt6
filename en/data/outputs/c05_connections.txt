@@ -1,0 +1,10 @@
+1) UniqueConnection prevents duplicates:
+  second connection refused: connection is not unique
+  received 1
+2) SingleShotConnection disconnects after the 1st emission:
+  received 2
+3) blockSignals / QSignalBlocker:
+  received 5
+4) QueuedConnection: delivered only when the event loop runs:
+  (emit returned before the delivery)
+  received 6

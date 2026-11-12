@@ -1,0 +1,3 @@
+class instantiated: PressureField
+inherits from: QDoubleSpinBox
+range: 0.0 to 1035.0 | suffix: ' bar'

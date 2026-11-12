@@ -1,0 +1,6 @@
+Tab order: QLineEdit -> QDoubleSpinBox -> QPushButton -> QLineEdit
+Accessible name of the pressure field: 'Test pressure'
+Palette text/background contrast: 18.3:1 (AA requires >= 4.5:1)
+Text gray #999999 on white: 2.85:1
+Text gray #595959 on white: 7.00:1
+System contrast preference: NoPreference | motion: NoPreference

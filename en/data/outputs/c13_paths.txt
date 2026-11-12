@@ -1,0 +1,8 @@
+AppDataLocation    /root/.local/share/Engineering/EngCalc
+AppConfigLocation  /root/.config/Engineering/EngCalc
+CacheLocation      /root/.cache/Engineering/EngCalc
+DocumentsLocation  /root/Documents
+TempLocation       /tmp
+mkpath: True
+is it a folder? True | writable? True
+python3 in the PATH: True

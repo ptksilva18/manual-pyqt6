@@ -1,0 +1,9 @@
+Audio outputs: 0; default: (none)
+  player: LoadingMedia
+  player: duration = 500 ms
+  player: LoadedMedia
+  player: BufferingMedia
+Decoder: 6 buffers, 22050 frames, 44100 Hz, 1 channel, Int16; peak = 11999 (generated amplitude: 12000)
+  player: BufferedMedia
+  player: EndOfMedia
+Final player state: StoppedState, status EndOfMedia

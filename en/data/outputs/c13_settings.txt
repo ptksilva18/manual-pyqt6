@@ -1,0 +1,15 @@
+[recent]
+1\file=bop_test.json
+2\file=riser_vi.json
+size=2
+
+[units]
+decimals=2
+pressure=bar
+show_psi=true
+
+no type=   -> '2'
+type=int   -> 2
+type=bool  -> True
+default    -> '°C'
+recent: ['bop_test.json', 'riser_vi.json']

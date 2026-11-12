@@ -1,0 +1,2 @@
+Surface 41 x 41; stress 100.0 to 334.0 MPa
+Series in the graph: 1

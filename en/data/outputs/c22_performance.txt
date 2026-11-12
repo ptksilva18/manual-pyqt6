@@ -1,0 +1,4 @@
+pyqtgraph setData                  median     3.7 ms/frame  (~  267 frames/s)
+QtCharts replace(QPointF list)     median    24.3 ms/frame  (~   41 frames/s)
+Matplotlib set_ydata + draw()      median    11.5 ms/frame  (~   87 frames/s)
+(20000 points per frame; values depend on the machine and the graphics backend)

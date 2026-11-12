@@ -1,0 +1,6 @@
+[service] object registered: True; name org.example.Tests registered: True
+[client]  service visible on the bus: True
+[client]  status -> valid=True, value='TH-01: in progress (stage 3/5)'
+[service] record('PT-101', 345.0)
+[client]  record -> ReplyMessage, arguments=[True]
+[client]  nonexistent method -> True: org.freedesktop.DBus.Error.UnknownMethod

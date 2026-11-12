@@ -1,0 +1,3 @@
+GIL switch interval: 5 ms
+Computation in the GUI thread:  20 ticks in ~1 s, worst interval 600 ms
+Computation in the worker   :  50 ticks in ~1 s, worst interval 24 ms

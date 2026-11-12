@@ -1,0 +1,5 @@
+Leak test                        series=['QScatterSeries', 'QSplineSeries'] axes=['QValueAxis', 'QValueAxis']
+S-N curve (log scale)            series=['QLineSeries'] axes=['QLogValueAxis', 'QValueAxis']
+Operating hours per month        series=['QBarSeries'] axes=['QBarCategoryAxis', 'QValueAxis']
+Non-productive time by cause     series=['QPieSeries'] axes=[]
+Pie labels: ['Weather 42%', 'Equipment 31%', 'Logistics 17%', 'Other 10%']

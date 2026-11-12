@@ -1,0 +1,3 @@
+ResultPanel('Test pressure')
+MRO: ['ResultPanel', 'TitledPanel', 'QWidget', 'QObject']
+Displayed text: 345.00 bar

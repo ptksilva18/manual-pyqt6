@@ -1,0 +1,2 @@
+visible entries: ['test_01.csv', 'test_02.csv']
+columns: ['Name', 'Size', 'Type', 'Date Modified']

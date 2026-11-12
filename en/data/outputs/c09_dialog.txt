@@ -1,0 +1,2 @@
+message: Enter the equipment tag.
+accepted: PressureTest(tag='BOP-01', pressure_bar=1034.2, duration_min=15.0)

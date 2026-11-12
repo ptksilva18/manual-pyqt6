@@ -1,0 +1,5 @@
+dataChanged: new content
+text: PT-101;345.0;bar
+dataChanged: new content
+formats: ['text/plain', 'text/html']
+html: <b>345</b> bar

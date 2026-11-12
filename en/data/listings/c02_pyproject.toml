@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eng-calc"
+version = "0.1.0"
+description = "Desktop application for engineering calculations with PyQt6"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.12,<6.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-qt>=4", "mypy>=1.10"]
+
+[project.gui-scripts]
+eng-calc = "eng_calc.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

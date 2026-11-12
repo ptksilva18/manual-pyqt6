@@ -1,0 +1,4 @@
+QFile('icons:valve.svg').exists(): True
+QIcon loaded through the prefix: True
+resolved file: DejaVuSansMono.ttf (335 KiB)
+unknown prefix: False

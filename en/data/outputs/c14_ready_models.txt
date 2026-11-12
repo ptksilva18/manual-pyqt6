@@ -1,0 +1,2 @@
+QStringListModel: ['Hydrostatic', 'Functional', 'Leak test']
+QStandardItemModel: children of Subsea control = ['SCM', 'HPU']

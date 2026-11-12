@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PressureTest</class>
+ <widget class="QWidget" name="PressureTest">
+  <layout class="QFormLayout" name="form">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Test pressure:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="PressureField" name="pressureField"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PressureField</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>c11_widgets.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

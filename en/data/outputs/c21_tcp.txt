@@ -1,0 +1,10 @@
+Server listening on 127.0.0.1:<ephemeral port>
+  state: HostLookupState
+  state: ConnectingState
+  state: ConnectedState
+answer: PT-101 123.4
+answer: TT-201 61.2
+answer: PT-102 98.7
+answer: ERROR invalid command: 'RESET'
+  state: ClosingState
+  state: UnconnectedState

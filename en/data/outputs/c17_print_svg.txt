@@ -1,0 +1,4 @@
+printable area at 300 dpi with 15 mm margins: 2125 x 3154
+via_qprinter.pdf: 10212 bytes | header b'%PDF-'
+via_qpdfwriter.pdf: 10420 bytes | header b'%PDF-'
+valid SVG? True | viewBox: 200.0 x 120.0 | center pixel: #eaf1fa
