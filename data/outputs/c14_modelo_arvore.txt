@@ -1,0 +1,3 @@
+índice do BOP: BOP 18¾" | pai: Sonda
+filhos do BOP: ['Gaveta cega', 'Gaveta de tubo', 'Anular']
+modelo aprovado pelo QAbstractItemModelTester

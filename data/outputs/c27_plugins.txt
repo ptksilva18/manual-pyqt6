@@ -1,0 +1,6 @@
+3 plugins encontrados (pasta + entry points 'manual_pyqt6.plugins')
+  ativado   'Conversor bar → psi'
+  ignorado  'Exportador legado': VERSAO_API=0 (esperada 1)
+  falhou    'Plugin quebrado': RuntimeError: falha ao inicializar o hardware do plugin
+Menu Plugins: ['Conversor bar → psi']
+Mensagem do plugin: 5003.8 psi

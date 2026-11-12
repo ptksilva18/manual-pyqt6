@@ -1,0 +1,9 @@
+PyQt6 ............ 6.12.0
+Qt (runtime) ..... 6.12.0
+Qt (build) ....... 6.12.0
+PyQt6-Charts             6.12.0
+PyQt6-Graphs             6.12.0
+PyQt6-WebEngine          6.140.0
+PyQt6-3D                 6.12.0
+PyQt6-DataVisualization  6.12.0
+PyQt6-NetworkAuth        6.12.0

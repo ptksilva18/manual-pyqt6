@@ -1,0 +1,3 @@
+Status do QML: Ready
+valor no QML: 250.0 | status: Normal
+valor no QML: 345.0 | status: ALARME: 345 bar acima de 80 % do fundo de escala

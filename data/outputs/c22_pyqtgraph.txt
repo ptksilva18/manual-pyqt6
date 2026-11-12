@@ -1,0 +1,3 @@
+pyqtgraph 0.14.0: 142 quadros em 2.9 s (~50 quadros/s; alvo 50)
+Janela de dados: 2000 pontos, t = [0.840; 2.839] s
+Tempo total no event loop: 2.9 s

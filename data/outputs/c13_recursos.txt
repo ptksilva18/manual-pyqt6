@@ -1,0 +1,4 @@
+QFile('icones:valvula.svg').exists(): True
+QIcon carregado pelo prefixo: True
+arquivo resolvido: DejaVuSansMono.ttf (335 KiB)
+prefixo inexistente: False

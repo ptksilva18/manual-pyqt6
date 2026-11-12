@@ -1,0 +1,3 @@
+/dados/relatorio.pdf: aceito? False
+/dados/ensaio_bop.csv: aceito? True
+rótulo: /dados/ensaio_bop.csv

@@ -1,0 +1,2 @@
+salvo: True | 400 x 320
+pixel (100, 70): #eaf1fa (preenchimento do retângulo)

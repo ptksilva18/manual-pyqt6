@@ -1,0 +1,4 @@
+View falsa  (345.0, 344.0, 0.5) -> resultado: Queda 1.00 bar (0.290 %) — APROVADO (aprovado=True)
+View falsa  (345.0, 342.0, 0.5) -> resultado: Queda 3.00 bar (0.870 %) — REPROVADO (aprovado=False)
+View falsa  (0.0, 0.0, 0.5) -> erro: pressão inicial deve ser positiva
+View real  -> rótulo: Queda 1.00 bar (0.290 %) — APROVADO

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>br.manual.ensaios.1.0</namespace>
+  <virtualFolder>doc</virtualFolder>
+  <filterSection>
+    <toc>
+      <section title="Manual do aplicativo de ensaios" ref="index.html">
+        <section title="Concorrência e threads" ref="threads.html"/>
+        <section title="Teste de estanqueidade" ref="estanqueidade.html"/>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="QThread" id="ensaios.qthread" ref="threads.html#qthread"/>
+      <keyword name="worker" ref="threads.html#worker"/>
+      <keyword name="estanqueidade" id="ensaios.estanqueidade" ref="estanqueidade.html"/>
+    </keywords>
+    <files>
+      <file>index.html</file>
+      <file>threads.html</file>
+      <file>estanqueidade.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>

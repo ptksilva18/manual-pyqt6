@@ -1,0 +1,7 @@
+3 consultas concorrentes em 0.29 s (sequencial levaria 0.60 s)
+  PT-101: 103.0
+  PT-102: 102.0
+  TT-201: 101.0
+to_thread: soma dos quadrados = 2666664666667000000
+wait_for: consulta a PT-999 excedeu 0.2 s e foi cancelada
+Rótulo da janela: 'PT-101=103.0 | PT-102=102.0 | TT-201=101.0'

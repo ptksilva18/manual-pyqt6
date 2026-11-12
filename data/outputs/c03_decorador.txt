@@ -1,0 +1,3 @@
+resultado = 2.5000
+dividir executado (<1 ms)
+nome preservado: dividir

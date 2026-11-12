@@ -1,0 +1,9 @@
+Pool global: maxThreadCount = 2 (= número de núcleos lógicos)
+waitForDone: True; threads ativas: 0
+  tarefa 0: dano de Miner = 0.053656
+  tarefa 1: dano de Miner = 0.107313
+  tarefa 2: dano de Miner = 0.214625
+  tarefa 3: dano de Miner = 0.429250
+  tarefa 4: dano de Miner = 0.858500
+  erros: ['tarefa 5: número de ciclos deve ser positivo']
+  callable executado no pool; threads distintas usadas (máx. 3): True

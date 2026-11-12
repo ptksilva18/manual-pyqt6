@@ -1,0 +1,5 @@
+  [console InfoMessageLevel] página carregada: 3 linhas
+loadFinished: True; título: 'Relatório TH-01'
+runJavaScript -> '344,2'
+  navegação bloqueada: https://example.com/ (NavigationTypeLinkClicked)
+printToPdf: sucesso=True, 50233 bytes, cabeçalho b'%PDF-'

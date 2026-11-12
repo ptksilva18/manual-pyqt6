@@ -1,0 +1,6 @@
+Ordem de tabulação: QLineEdit -> QDoubleSpinBox -> QPushButton -> QLineEdit
+Nome acessível do campo de pressão: 'Pressão do ensaio'
+Contraste texto/fundo da paleta: 18.3:1 (AA exige >= 4.5:1)
+Texto cinza #999999 sobre branco: 2.85:1
+Texto cinza #595959 sobre branco: 7.00:1
+Preferência de contraste do sistema: NoPreference | movimento: NoPreference

@@ -1,0 +1,5 @@
+posição final: 10 10
+opacidade final: 1.0 | atualizações intermediárias recebidas? True
+duração total da sequência: 600 ms
+QTimeLine último quadro: 10
+OutBounce em t=0.5: 0.7656

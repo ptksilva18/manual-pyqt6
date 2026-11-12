@@ -1,0 +1,3 @@
+Séries encontradas: QLineSeries QScatterSeries
+Pontos: linha = 31, medidas = 4; eixo Y até 350 bar
+p(2900 m) teórica = 293.9 bar

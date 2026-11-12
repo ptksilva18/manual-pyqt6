@@ -1,0 +1,4 @@
+Portas físicas detectadas: 1
+  ttyS0 —  (VID 0)
+Porta aberta: True | 115200 baud, 8N1
+12 amostras; seq 0..11; pressão 100.00 -> 127.50 bar; temperatura máx. 26.10 °C

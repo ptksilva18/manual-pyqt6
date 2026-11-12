@@ -1,0 +1,8 @@
+Execução 1: iniciar() roda na thread: GUI
+  executar() roda na thread: integrador-1
+  resultado = 1.5707963268 (exato: pi/2 = 1.5707963268)
+  thread terminada; rótulo: 'Integral = 1.5707963268'; barra: 100 %
+Execução 2: iniciar() roda na thread: GUI
+  executar() roda na thread: integrador-2
+  usuário cancela em 40 % (slot na thread: GUI)
+  thread terminada; rótulo: 'Cancelado'; barra: 42 %

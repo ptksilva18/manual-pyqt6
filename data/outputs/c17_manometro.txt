@@ -1,0 +1,3 @@
+valorChanged -> 345.0
+valorChanged -> 690.0
+renderizado: 260 x 260 | nulo? False

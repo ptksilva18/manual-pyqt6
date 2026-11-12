@@ -1,0 +1,3 @@
+Referência 320x120 gravada
+Renderização idêntica: 0 pixels diferentes (0.00 %) -> PASSOU
+Cor do resultado alterada: 189 pixels diferentes (0.49 %) -> FALHOU (regressão detectada)

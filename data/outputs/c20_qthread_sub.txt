@@ -1,0 +1,6 @@
+t.thread() é a thread da GUI? True
+run() executa em: aquisicao
+slot_da_subclasse() executa em: GUI
+run() encerrou após 15 amostras
+wait() retornou True; isRunning() = False
+finished emitido; amostras recebidas: 15

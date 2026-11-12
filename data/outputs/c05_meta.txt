@@ -1,0 +1,6 @@
+classe: Valvula
+propriedades declaradas: ['abertura']
+sinais/slots declarados: ['aberturaChanged(int)', 'fechar()']
+abertura = 100
+dinâmicas do botão: ['perigoso']
+perigoso = True

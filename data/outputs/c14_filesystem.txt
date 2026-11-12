@@ -1,0 +1,2 @@
+entradas visíveis: ['ensaio_01.csv', 'ensaio_02.csv']
+colunas: ['Name', 'Size', 'Type', 'Date Modified']

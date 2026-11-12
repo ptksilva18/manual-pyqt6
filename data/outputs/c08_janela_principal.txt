@@ -1,0 +1,5 @@
+1ª abertura — estado restaurado? False
+título: Diário de Ensaios [*] | modificado? True
+após salvar — modificado? False
+menus: ['&Arquivo', '&Exibir']
+2ª abertura — estado restaurado? True

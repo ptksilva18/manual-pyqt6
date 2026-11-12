@@ -1,0 +1,3 @@
+lista marcada: ['PT-101', 'PT-102']
+filhos da sonda: ['BOP', 'Riser']
+ordenado por pressão: ['BOP-02', 'BOP-01']

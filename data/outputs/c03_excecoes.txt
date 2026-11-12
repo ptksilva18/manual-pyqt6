@@ -1,0 +1,4 @@
+[ERRO NÃO TRATADO] ZeroDivisionError: divisão por zero no cálculo
+  origem: função slot_com_defeito(), linha 20
+A aplicação continua respondendo.
+código de saída: 0

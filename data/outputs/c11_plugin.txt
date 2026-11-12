@@ -1,0 +1,2 @@
+CampoPressao | grupo: Engenharia | inicializado: True
+widget criado: CampoPressao | domXml: <widget class="CampoPressao" name="campoPressao"/>

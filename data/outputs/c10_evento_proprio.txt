@@ -1,0 +1,5 @@
+tipo registrado >= User? True
+postEvent retornou
+customEvent: medição 2.0
+sendEvent retornou
+customEvent: medição 1.0

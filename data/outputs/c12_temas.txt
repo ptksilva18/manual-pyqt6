@@ -1,0 +1,3 @@
+QSS aplicado (caracteres): 1128
+propriedade dinâmica perigoso = True
+re-polido após mudar a propriedade

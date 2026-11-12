@@ -1,0 +1,11 @@
+resize  -1x-1 -> 300x200
+press   LeftButton em (10, 10)
+move    para (50, 40) botões=LeftButton
+release LeftButton
+tecla Esc -> limpar seleção
+Ctrl+Z -> desfazer
+resize  300x200 -> 400x250
+close   ignorado (há alterações não salvas)
+fechou? False
+close   aceito
+fechou? True

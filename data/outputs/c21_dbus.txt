@@ -1,0 +1,6 @@
+[serviço] objeto registrado: True; nome br.manual.Ensaios registrado: True
+[cliente] serviço visível no barramento: True
+[cliente] status -> válido=True, valor='TH-01: em andamento (estágio 3/5)'
+[serviço] registrar('PT-101', 345.0)
+[cliente] registrar -> ReplyMessage, argumentos=[True]
+[cliente] método inexistente -> True: org.freedesktop.DBus.Error.UnknownMethod

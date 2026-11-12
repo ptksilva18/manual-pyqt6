@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ensaio</class>
+ <widget class="QWidget" name="Ensaio">
+  <layout class="QFormLayout" name="formulario">
+   <item row="0" column="0">
+    <widget class="QLabel" name="rotulo">
+     <property name="text">
+      <string>Pressão de teste:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="CampoPressao" name="campoPressao"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CampoPressao</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>c11_widgets.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

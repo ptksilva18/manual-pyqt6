@@ -1,0 +1,4 @@
+fileChanged: parametros.txt
+síncrono -> 690 | código: 0
+stdout: saida ok
+finished: código 3 | NormalExit

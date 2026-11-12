@@ -1,0 +1,10 @@
+Motores disponíveis: ['speechd', 'mock']
+Motor: mock; estado: Ready
+Idiomas: ['en_GB', 'en_US', 'nb_NO', 'nn_NO', 'fi_FI']
+Vozes: [('Bob', 'Male', 'Adult'), ('Anne', 'Female', 'Adult')]
+Vozes em português na localidade atual deste motor: 0
+Voz escolhida: Anne (en_GB)
+  estado -> Speaking
+Identificadores devolvidos por enqueue(): [0, 1]
+  estado -> Ready
+Estado final: Ready

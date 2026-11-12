@@ -1,0 +1,4 @@
+datagrama de 127.0.0.1: PB01 #0 = 101.325 (16 bytes)
+datagrama de 127.0.0.1: PB01 #1 = 101.410 (16 bytes)
+datagrama de 127.0.0.1: PB01 #2 = 101.388 (16 bytes)
+3 datagramas recebidos; tamanho de cada um = 16 bytes

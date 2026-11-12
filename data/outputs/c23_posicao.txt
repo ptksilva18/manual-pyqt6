@@ -1,0 +1,11 @@
+Fontes de posição disponíveis: ['geoclue2', 'nmea']
+12:00:00 22° 30.000' S, 40° 0.000' W, 12m | 8.1 nós, rumo 48.0° | até a referência  16.6 m
+12:00:01 22° 29.999' S, 39° 59.998' W, 12m | 8.1 nós, rumo 48.0° | até a referência  12.5 m
+12:00:02 22° 29.997' S, 39° 59.996' W, 12m | 8.1 nós, rumo 48.0° | até a referência   8.3 m  [zona de 10 m]
+12:00:03 22° 29.996' S, 39° 59.995' W, 12m | 8.1 nós, rumo 48.0° | até a referência   4.2 m  [zona de 10 m]
+12:00:04 22° 29.994' S, 39° 59.993' W, 12m | 8.1 nós, rumo 48.0° | até a referência   0.0 m  [zona de 10 m]
+12:00:05 22° 29.992' S, 39° 59.991' W, 12m | 8.1 nós, rumo 48.0° | até a referência   4.2 m  [zona de 10 m]
+12:00:06 22° 29.991' S, 39° 59.989' W, 12m | 8.1 nós, rumo 48.0° | até a referência   8.3 m  [zona de 10 m]
+12:00:07 22° 29.990' S, 39° 59.987' W, 12m | 8.1 nós, rumo 48.0° | até a referência  12.5 m
+8 posições; deslocamento 29.1 m, azimute 47.9°
+Ponto médio: -22.499913, -39.999895

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Ponte QWebChannel</title>
+  <!-- qwebchannel.js é injetado pelo Python (QWebEngineScript) antes deste código -->
+</head>
+<body>
+  <h2>Pressão hidrostática</h2>
+  <label>Profundidade (m): <input id="prof" type="number" value="1350"></label>
+  <button id="calcular">Calcular</button>
+  <p>Resultado: <span id="resultado">—</span></p>
+  <p>Unidade (propriedade Python): <span id="unidade"></span></p>
+  <p>Último alerta (sinal Python): <span id="alerta">nenhum</span></p>
+  <script>
+    new QWebChannel(qt.webChannelTransport, function (canal) {
+      const ponte = canal.objects.ponte;            // nome usado em registerObject()
+      document.getElementById("unidade").textContent = ponte.unidade;   // propriedade
+      ponte.alerta.connect(function (texto) {         // sinal Python -> JavaScript
+        document.getElementById("alerta").textContent = texto;
+      });
+      document.getElementById("calcular").onclick = function () {
+        const z = parseFloat(document.getElementById("prof").value);
+        ponte.pressao(z, function (p) {               // slot com retorno: callback
+          document.getElementById("resultado").textContent = p.toFixed(2);
+        });
+      };
+      ponte.pronto();                                 // avisa o Python
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+test_backspace_corrige_digitacao (__main__.TestesCalculadora.test_backspace_corrige_digitacao) ... ok
+test_tecla_enter (__main__.TestesCalculadora.test_tecla_enter) ... ok
+test_teclado_e_mouse (__main__.TestesCalculadora.test_teclado_e_mouse) ... ok
+test_modelo_respeita_contrato (__main__.TestesModelo.test_modelo_respeita_contrato) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.017s
+
+OK

@@ -1,0 +1,10 @@
+Servidor escutando em 127.0.0.1:<porta efêmera>
+  estado: HostLookupState
+  estado: ConnectingState
+  estado: ConnectedState
+resposta: PT-101 123.4
+resposta: TT-201 61.2
+resposta: PT-102 98.7
+resposta: ERRO comando invalido: 'RESET'
+  estado: ClosingState
+  estado: UnconnectedState

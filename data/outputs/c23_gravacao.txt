@@ -1,0 +1,4 @@
+Contêineres para gravação: ['AVI', 'Matroska', 'MPEG4', 'Ogg', 'QuickTime', 'Mpeg4Audio', 'AAC', 'FLAC', 'Wave']
+Codecs de áudio: ['AAC', 'AC3', 'EAC3', 'FLAC', 'Wave', 'ALAC']
+Câmeras: 0; microfones: 0
+Gravado: registro.wav — 16000 Hz, 1 canal, 16000 quadros (1.00 s); duration() = 1000 ms

@@ -1,0 +1,4 @@
+Modo de saída: Headphone; distanceScale = 100 cm por unidade (unidades em metros)
+Fonte em (3, 0, -4); distância ao ouvinte = 5.0 m
+Sala (12, 3, 8) m; piso: ConcreteBlockPainted
+Sem dispositivo de saída de áudio: motor não iniciado.

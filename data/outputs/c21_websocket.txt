@@ -1,0 +1,5 @@
+servidor: cliente conectado (origem 'http://app.local')
+cliente: conectado -> ws | enviando pedido
+cliente: texto -> {"tag": "PT-101", "n": 5}
+cliente: binário com 40 bytes -> (100.0, 100.5, 101.0, 101.5, 102.0)
+cliente: desconectado; código CloseCodeNormal motivo 'fim da coleta'

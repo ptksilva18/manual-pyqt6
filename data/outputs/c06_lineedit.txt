@@ -1,0 +1,8 @@
+validar '345.5'    -> Acceptable
+validar '345.555'  -> Invalid
+validar '700'      -> Intermediate
+validar 'abc'      -> Invalid
+tag 'PT-101' -> Acceptable | aceitável? True
+máscara aplicada: 11/11/2026 | completa? True
+texto real: s3gr3do | exibido: ●●●●●●●
+sugestões para 'px': ['PX-001', 'PX-002']

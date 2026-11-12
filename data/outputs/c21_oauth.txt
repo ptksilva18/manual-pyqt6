@@ -1,0 +1,9 @@
+redirect_uri local escutando: True
+provedor: /authorize com ['client_id', 'code_challenge', 'code_challenge_method', 'redirect_uri', 'response_type', 'scope', 'state']
+status do fluxo: TemporaryCredentialsReceived
+provedor: /token grant_type=authorization_code, PKCE conferido = True
+status do fluxo: Granted
+token de acesso: tok-abc
+refresh token : ref-xyz
+escopo concedido: ['escrita', 'leitura']
+expira em (s) ~ 3600

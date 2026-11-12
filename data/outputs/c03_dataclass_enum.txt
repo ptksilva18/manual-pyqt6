@@ -1,0 +1,4 @@
+material escolhido: <Material.INOX_316L: 'Inox 316L'>
+tubo: OD=273.1 mm, t=12.7 mm, tags=('linha de serviço',)
+DI = 247.7 mm
+imutável? True

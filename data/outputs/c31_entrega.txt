@@ -1,0 +1,28 @@
+== 1. testes (pytest + cobertura) (código 0)
+  ensaios/__init__.py          1      0   100%
+  ensaios/__main__.py          3      3     0%
+  ensaios/app.py              55     55     0%
+  ensaios/dominio.py          56      1    98%
+  ensaios/importacao.py       18      0   100%
+  ensaios/janela.py          163     22    87%
+  ensaios/modelos.py          54      9    83%
+  ensaios/relatorio.py        36      0   100%
+  ensaios/repositorio.py      29      0   100%
+  ensaios/servicos.py         30      5    83%
+  TOTAL                      445     95    79%
+  13 passed in 1.02s
+== 2. autoteste a partir do código-fonte (código 0)
+  ensaio criado: id=1; ensaios na lista: 1
+  leituras: 13; ação Analisar habilitada: True
+  resultado: aprovado=True, queda=0.224 bar (0.065 %), taxa=0.238 bar/h, p_final_corrigida=344.776 bar
+  relatório: TH-01.pdf, 90598 bytes, cabeçalho b'%PDF-'
+  painel: APROVADO
+== 3. empacotamento (PyInstaller, onedir) (código 0)
+   pacote: dist/MonitorEnsaios (364 MB)
+== 4. autoteste do executável congelado (código 0)
+  ensaio criado: id=1; ensaios na lista: 1
+  leituras: 13; ação Analisar habilitada: True
+  resultado: aprovado=True, queda=0.224 bar (0.065 %), taxa=0.238 bar/h, p_final_corrigida=344.776 bar
+  relatório: TH-01.pdf, 90598 bytes, cabeçalho b'%PDF-'
+  painel: APROVADO
+ENTREGA APROVADA

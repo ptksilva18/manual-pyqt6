@@ -1,0 +1,7 @@
+célula (1,1) exibida: 310.5
+edição -10 aceita? False
+dataChanged linhas 1..1
+edição 320 aceita? True
+dataChanged linhas 2..2
+linhas: ['BOP-01', 'BOP-02', 'BOP-03']
+após remover a 1ª: ['BOP-02', 'BOP-03']

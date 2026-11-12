@@ -1,0 +1,7 @@
+Suporte a TLS: True | backend: openssl | OpenSSL 3.0.13 30 Jan 2024
+[sem CA ] sslErrors: ['SelfSignedCertificate']
+[sem CA ] erro: SslHandshakeFailedError
+[com CA ] canal cifrado: TlsV1_3, TLS_AES_256_GCM_SHA384; par = ['localhost']
+[com CA ] recebido: ACK PING
+[outro nome] sslErrors: ['HostNameMismatch']
+[outro nome] erro: SslHandshakeFailedError

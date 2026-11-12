@@ -1,0 +1,2 @@
+QStringListModel: ['Hidrostático', 'Funcional', 'Estanqueidade']
+QStandardItemModel: filhos de Controle submarino = ['SCM', 'HPU']

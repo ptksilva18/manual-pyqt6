@@ -1,0 +1,7 @@
+[fonte]   publicado: True
+[réplica] estado Valid; pressao = 100.0
+[réplica] pressaoChanged -> 100.0
+[fonte]   ajustar_referencia(0.0) chamado remotamente
+[réplica] pressaoChanged -> 0.0
+[réplica] pressaoChanged -> 151.5
+[fonte]   réplica terminou com código 0

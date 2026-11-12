@@ -1,0 +1,9 @@
+Saídas de áudio: 0; padrão: (nenhuma)
+  player: LoadingMedia
+  player: duração = 500 ms
+  player: LoadedMedia
+  player: BufferingMedia
+  player: BufferedMedia
+Decodificador: 6 buffers, 22050 quadros, 44100 Hz, 1 canal, Int16; pico = 11999 (amplitude gerada: 12000)
+  player: EndOfMedia
+Estado final do player: StoppedState, status EndOfMedia

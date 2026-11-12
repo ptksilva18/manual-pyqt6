@@ -1,0 +1,5 @@
+Teste de estanqueidade           séries=['QScatterSeries', 'QSplineSeries'] eixos=['QValueAxis', 'QValueAxis']
+Curva S-N (escala log)           séries=['QLineSeries'] eixos=['QLogValueAxis', 'QValueAxis']
+Horas de operação por mês        séries=['QBarSeries'] eixos=['QBarCategoryAxis', 'QValueAxis']
+Tempo não produtivo por causa    séries=['QPieSeries'] eixos=[]
+Rótulos da pizza: ['Clima 42%', 'Equipamento 31%', 'Logística 17%', 'Outros 10%']

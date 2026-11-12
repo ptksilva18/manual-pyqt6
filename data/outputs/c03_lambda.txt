@@ -1,0 +1,9 @@
+errado: False
+botão 0
+partial: 0
+errado: False
+botão 1
+partial: 1
+errado: False
+botão 2
+partial: 2

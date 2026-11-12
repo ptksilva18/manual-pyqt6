@@ -1,0 +1,5 @@
+Avançar habilitado sem nome? False
+Avançar habilitado com nome? True
+Projeto: Verificação de riser
+Unidades: Imperial
+concluído? True

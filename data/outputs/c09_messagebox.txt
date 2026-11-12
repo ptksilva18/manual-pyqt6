@@ -1,0 +1,2 @@
+confirmou exclusão? False
+escolha ao salvar: Discard

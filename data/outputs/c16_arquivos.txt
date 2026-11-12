@@ -1,0 +1,4 @@
+commit: True | conteúdo: ['Ensaio hidrostático', 'Pressão: 345 bar', '']
+mágico ok? True | PT-101 | [101.3, 205.7, 344.9]
+status da leitura: Ok
+tamanho do arquivo: 48 bytes

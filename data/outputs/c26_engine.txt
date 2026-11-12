@@ -1,0 +1,5 @@
+Janela: Calculadora hidrostática (QML)
+Pressão: 137.37 bar | Volume do tanque: 17.671 m³
+Objeto criado pelo QML é instância de Tanque (Python): True
+Pressão: 203.03 bar | Volume do tanque: 28.274 m³
+Pressão: 2944.70 psi | Unidade alterada para psi

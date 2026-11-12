@@ -1,0 +1,4 @@
+ERROR exceção na thread exportador: ZeroDivisionError: division by zero
+ERROR exceção não tratada:
+KeyError: 'PT-102'
+INFO a aplicação continuou rodando após os erros

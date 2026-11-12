@@ -1,0 +1,3 @@
+lista original após o construtor: ['app.py', 'relatorio.csv', '--verbose']
+app.arguments():                  ['app.py', 'relatorio.csv', '--verbose']
+estilo em uso: fusion

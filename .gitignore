@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Saídas do gerador do documento
+build/
+*.docx
+*.pdf
+
+# Empacotamento (PyInstaller / cx_Freeze)
+dist/
+*.egg-info/
+
+# Certificado de TESTE gerado por runner.py (nunca versionar chave privada)
+data/listings/resources/tls/
+
+# Sistema
+.DS_Store
+Thumbs.db

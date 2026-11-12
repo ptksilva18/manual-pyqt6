@@ -1,0 +1,49 @@
+"""QAxContainer (somente Windows): gravação de resultados no Microsoft Excel via COM."""
+
+import os
+import sys
+
+from PyQt6.QAxContainer import QAxObject
+from PyQt6.QtCore import QDir
+from PyQt6.QtWidgets import QApplication
+
+DADOS = [["Tempo (min)", "Pressão (bar)"], [0, 345.0], [30, 344.2], [60, 344.0]]
+
+
+def exportar_excel(caminho: str) -> None:
+    excel = QAxObject("Excel.Application")  # ProgID registrado pelo Office
+    if excel.isNull():
+        raise RuntimeError("Microsoft Excel não está instalado ou registrado")
+    excel.exception.connect(
+        lambda codigo, fonte, desc, _ajuda: print(f"COM {codigo:#x} em {fonte}: {desc}")
+    )
+    try:
+        excel.setProperty("Visible", False)
+        excel.setProperty("DisplayAlerts", False)
+        livros = excel.querySubObject("Workbooks")
+        livro = livros.querySubObject("Add()")
+        planilha = livro.querySubObject("Worksheets(int)", 1)
+        planilha.setProperty("Name", "Ensaio TH-01")
+        for i, linha in enumerate(DADOS, start=1):  # uma chamada COM por célula
+            for j, valor in enumerate(linha, start=1):
+                celula = planilha.querySubObject("Cells(int,int)", i, j)
+                celula.setProperty("Value", valor)
+        livro.dynamicCall("SaveAs(const QString&)", QDir.toNativeSeparators(caminho))
+        livro.dynamicCall("Close(bool)", False)
+    finally:
+        excel.dynamicCall("Quit()")  # sem Quit(), o processo EXCEL.EXE permanece aberto
+
+
+def main() -> int:
+    if sys.platform != "win32":
+        print("QAxContainer existe apenas nas wheels do PyQt6 para Windows.")
+        return 1
+    app = QApplication(sys.argv)  # noqa: F841  (COM no Qt requer o objeto de aplicação)
+    destino = os.path.join(os.path.expanduser("~"), "ensaio_TH-01.xlsx")
+    exportar_excel(destino)
+    print("Planilha gravada em", destino)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

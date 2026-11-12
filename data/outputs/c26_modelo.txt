@@ -1,0 +1,5 @@
+Itens no ListView: 2
+Após inserir e desativar: 3 itens
+  delegate: 7-ABC-001 1350.0 False
+  delegate: 7-ABC-002 1420.0 True
+  delegate: 7-ABC-003 1980.0 True

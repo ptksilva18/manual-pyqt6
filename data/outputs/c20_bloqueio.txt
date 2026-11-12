@@ -1,0 +1,3 @@
+Intervalo de troca do GIL: 5 ms
+Cálculo na thread da GUI :  20 tiques em ~1 s, pior intervalo 600 ms
+Cálculo no worker (QThread):  50 tiques em ~1 s, pior intervalo 25 ms

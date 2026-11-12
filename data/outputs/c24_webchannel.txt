@@ -1,0 +1,3 @@
+  Python: página conectada ao canal
+  Python: pressao(1350.0) = 137.3747
+DOM: resultado=137.37; unidade=bar; alerta=137.4 bar excede 100 bar

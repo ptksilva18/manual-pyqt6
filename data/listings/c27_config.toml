@@ -1,0 +1,12 @@
+# Configuração da aplicação (lida com tomllib; valores podem ser sobrepostos por variáveis
+# de ambiente com o prefixo ENSAIOS_).
+[aplicacao]
+nome = "Monitor de Ensaios"
+unidade_pressao = "bar"
+
+[persistencia]
+backend = "memoria"          # "memoria" ou "sqlite"
+arquivo = "ensaios.sqlite"
+
+[limites]
+queda_admissivel_pct = 0.5

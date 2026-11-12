@@ -1,0 +1,3 @@
+título vindo do .ui: Dados do poço
+buddy do rótulo: campoNome
+poço 'PZ-123', LDA = 2140 m

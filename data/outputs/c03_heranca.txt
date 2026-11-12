@@ -1,0 +1,3 @@
+PainelResultado('Pressão de teste')
+MRO: ['PainelResultado', 'PainelTitulado', 'QWidget', 'QObject']
+Texto exibido: 345.00 bar

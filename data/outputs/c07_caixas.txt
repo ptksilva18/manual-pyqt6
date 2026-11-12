@@ -1,0 +1,2 @@
+altura do QTextEdit com janela de 300 px: 199
+altura do QTextEdit com janela de 500 px: 399

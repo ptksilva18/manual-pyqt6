@@ -1,0 +1,4 @@
+thread-io  -> 41626                                         (tratado na thread GUI)
+proc-1e6   -> 78498                                         (tratado na thread GUI)
+proc-erro  -> ValueError('isqrt() argument must be nonnegative') (tratado na thread GUI)
+proc-2e6   -> 148933                                        (tratado na thread GUI)

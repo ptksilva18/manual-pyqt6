@@ -1,0 +1,6 @@
+formatos: Format_RGB32 -> Format_Grayscale8
+redimensionada: 64 x 16
+pixel (200, 10): (200, 74, 55)
+QPixmap: 256 x 64 | profundidade: 32
+texto elidido em 150 px: Relatório d… perfuração
+altura da linha: 15 px

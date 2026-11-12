@@ -1,0 +1,15 @@
+[recentes]
+1\arquivo=ensaio_bop.json
+2\arquivo=riser_vi.json
+size=2
+
+[unidades]
+casas_decimais=2
+mostrar_psi=true
+pressao=bar
+
+sem type=  -> '2'
+type=int   -> 2
+type=bool  -> True
+padrão     -> '°C'
+recentes: ['ensaio_bop.json', 'riser_vi.json']

@@ -1,0 +1,4 @@
+área útil a 300 dpi com margens de 15 mm: 2125 x 3154
+via_qprinter.pdf: 10180 bytes | cabeçalho b'%PDF-'
+via_qpdfwriter.pdf: 10427 bytes | cabeçalho b'%PDF-'
+SVG válido? True | viewBox: 200.0 x 120.0 | pixel central: #eaf1fa

@@ -1,0 +1,7 @@
+invokeMethod -> tarefa('chamada da GUI') executou em: worker
+emitir() executa em: worker
+  slot da conexão DirectConnection          executou em: worker
+  slot da conexão AutoConnection            executou em: GUI
+  slot da conexão QueuedConnection          executou em: GUI
+  slot da conexão BlockingQueuedConnection  executou em: GUI
+  emitir() continua após BlockingQueued (o slot já terminou)

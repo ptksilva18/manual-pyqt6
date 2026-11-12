@@ -1,0 +1,29 @@
+# Licenciamento arquivo a arquivo (https://reuse.software/spec/).
+# Regra geral: código = GPL-3.0-only (a mesma licença do PyQt6); texto, figuras e saídas = CC-BY-SA-4.0.
+# Em caso de sobreposição, a última anotação que casar com o arquivo prevalece;
+# "override" faz este arquivo valer sobre qualquer texto de licença dentro dos arquivos.
+version = 1
+
+[[annotations]]
+path = "**"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Patrick Silva Oliveira"
+SPDX-License-Identifier = "GPL-3.0-only"
+
+[[annotations]]
+path = ["**.md", "data/outputs/**", "data/figs/**", "img/**", "data/pyqt6_catalog.json", "CITATION.cff"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Patrick Silva Oliveira"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ["data/figs/f11_1_designer.png", "data/figs/raw_designer_xvfb.png"]
+precedence = "override"
+SPDX-FileCopyrightText = ["2026 Patrick Silva Oliveira", "The Qt Company Ltd. (interface do Qt Designer)"]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "data/listings/resources/fonts/DejaVuSansMono.ttf"
+precedence = "override"
+SPDX-FileCopyrightText = "2003 Bitstream, Inc. (DejaVu changes are in public domain)"
+SPDX-License-Identifier = "Bitstream-Vera"

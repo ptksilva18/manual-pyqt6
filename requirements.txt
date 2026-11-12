@@ -1,0 +1,23 @@
+# Versões usadas na verificação do MAN-PYQT6-001 (Python 3.13, Ubuntu 24.04).
+# Instalação: python -m pip install -r requirements.txt
+PyQt6==6.12.0
+PyQt6-Qt6==6.12.0
+PyQt6-Charts==6.12.0
+PyQt6-Graphs==6.12.0
+PyQt6-DataVisualization==6.12.0
+PyQt6-3D==6.12.0
+PyQt6-NetworkAuth==6.12.0
+PyQt6-WebEngine==6.140.0
+numpy==2.5.3
+matplotlib==3.11.2
+pyqtgraph==0.14.0
+qasync==0.28.0
+Pillow==12.3.0
+PyYAML==6.0.3
+pytest==9.1.1
+pytest-qt==4.5.0
+pytest-cov==7.1.0
+coverage==7.17.2
+pyinstaller==6.22.3
+cx_Freeze==8.7.4
+black==26.10.1

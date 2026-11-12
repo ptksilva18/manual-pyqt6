@@ -1,0 +1,4 @@
+itens na cena: 6 | válvulas: ['XV-101', 'XV-102', 'XV-103']
+posição ajustada à grade: 210.0 130.0
+colide com: ['QGraphicsRectItem', 'XV-102']
+item em (330, 130): XV-103

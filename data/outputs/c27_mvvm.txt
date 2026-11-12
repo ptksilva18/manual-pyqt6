@@ -1,0 +1,3 @@
+bar -> psi: 1450.377 psi | alarme False
+psi -> bar: 379.212 bar | campo psi permanece 5500.000 | VM: 5500.000000 psi | alarme True
+VM -> tela: 200.000 bar, 2900.755 psi | alarme False | 200.000 bar = 2900.755 psi

@@ -1,0 +1,8 @@
+AppDataLocation    /root/.local/share/Engenharia/CalcEng
+AppConfigLocation  /root/.config/Engenharia/CalcEng
+CacheLocation      /root/.cache/Engenharia/CalcEng
+DocumentsLocation  /root/Documents
+TempLocation       /tmp
+mkpath: True
+é pasta? True | gravável? True
+python3 no PATH: True

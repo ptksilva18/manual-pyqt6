@@ -1,0 +1,4 @@
+slider após spin = 37.5 %: 375
+spin após slider = 820: 82.0
+345 bar = 5003.80 psi
+345 bar = 34.50 MPa

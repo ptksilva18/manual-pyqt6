@@ -1,0 +1,2 @@
+Superfície 41 x 41; tensão 100.0 a 334.0 MPa
+Séries no gráfico: 1

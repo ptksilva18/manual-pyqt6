@@ -1,0 +1,5 @@
+unidades: psi
+detalhado: False
+--version pedido? True
+posicionais: ['ensaio_bop.json']
+Usage: calceng [options] arquivo

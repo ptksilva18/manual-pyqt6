@@ -1,0 +1,6 @@
+Perfil off-the-record: True
+  interceptor: liberado /indice (ResourceTypeMainFrame)
+  interceptor: BLOQUEADO /rastreio.gif (ResourceTypeImage)
+loadFinished: True; título: 'Ajuda interna'
+  download solicitado: ensaio.csv (text/csv)
+  download DownloadCompleted: 4 linhas; última = '60;344.0'

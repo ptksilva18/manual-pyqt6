@@ -1,0 +1,8 @@
+painel: 250.0 bar
+log: 250.0
+painel: 310.0 bar
+log: 310.0
+ALARME em PT-101: 310.0 bar
+bruto int: 4095
+bruto str: 0x0FFF
+log: 100.0

@@ -1,0 +1,10 @@
+GET /api/pocos/7 -> HTTP 200, erro = NoError
+  Content-Type: application/json
+  JSON: {'poco': '7-ABC-001', 'lamina_dagua_m': 1350.0, 'fluido': 'óleo'}
+POST /api/ensaios -> HTTP 201, erro = NoError
+  Location: /api/ensaios/42
+  JSON: {'ensaio': 'TH-01', 'pressao_bar': 345.0, 'id': 42}
+GET /nao/existe -> HTTP 404, erro = ContentNotFoundError (Error transferring http://127.0.0.1:44877/nao/existe - server replied: Not Found)
+  corpo de erro: {"erro": "recurso inexistente"}
+GET /lento (timeout 300 ms) -> HTTP None, erro = TimeoutError (Operation timed out)
+GET /arquivo -> HTTP 200, erro = NoError; 262144 bytes; marcos de progresso (%): [37, 68, 100]

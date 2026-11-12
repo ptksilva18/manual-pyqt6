@@ -1,0 +1,4 @@
+política: PassThrough
+devicePixelRatio da tela: 1.0
+DPI lógico: 96
+tamanho lógico do pixmap: 48 x 48

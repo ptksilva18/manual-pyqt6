@@ -1,0 +1,11 @@
+$ pyinstaller --noconfirm app_ensaios.spec
+código de saída do PyInstaller: 0
+pasta gerada: dist/app_ensaios (235 MB)
+conteúdo de _internal/PyQt6/Qt6: ['lib', 'plugins', 'translations']
+recursos incluídos: ['tema.qss']
+executável congelado (código 0):
+  congelado: True; PyInstaller: True
+  plataforma Qt: offscreen
+  tema QSS carregado: 105 caracteres
+  plugins de plataforma: ['libqeglfs.so', 'libqlinuxfb.so', 'libqminimal.so', 'libqminimalegl.so', 'libqoffscreen.so', 'libqvkkhrdisplay.so', 'libqvnc.so', 'libqwayland.so', 'libqxcb.so']
+  tradução qtbase pt_BR carregada: True -> 'Cancel' = 'Cancelar'

@@ -1,0 +1,11 @@
+QWidget: janela
+  QVBoxLayout: layoutPrincipal
+  QLineEdit: campoVazao
+    QObject: (sem nome)
+  QLineEdit: campoPressao
+    QObject: (sem nome)
+  QPushButton: botaoCalcular
+findChild: campoPressao
+findChildren(QLineEdit): ['campoVazao', 'campoPressao']
+destroyed: botão destruído
+filhos restantes: ['layoutPrincipal', 'campoVazao', 'campoPressao']

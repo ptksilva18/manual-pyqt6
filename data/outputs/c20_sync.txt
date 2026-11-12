@@ -1,0 +1,5 @@
+QMutex: contador = 200000 (esperado 200000)
+QReadWriteLock: valor final = 210.0 GPa
+QWaitCondition: consumidos 10000 itens, soma = 49995000 (esperado 49995000); ocupação máxima = 8 <= 8
+QSemaphore: disponíveis = 2; tryAcquire(2) = True; tryAcquire(1) = False
+QSemaphore: após release(2), disponíveis = 2

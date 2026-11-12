@@ -1,0 +1,3 @@
+página atual: 1
+tamanhos do splitter (px): [256, 340]
+estado serializado (bytes): 31

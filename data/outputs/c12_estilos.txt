@@ -1,0 +1,5 @@
+estilos disponíveis: ['Windows', 'Fusion']
+estilo padrão: fusion
+barra de rolagem (Fusion): 14
+barra de rolagem (proxy):  20
+ícones de barra (proxy):   32

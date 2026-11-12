@@ -1,0 +1,3 @@
+ERROR exceção na thread exportador: ZeroDivisionError: division by zero
+ERROR exceção não tratada:
+KeyError: 'PT-102'

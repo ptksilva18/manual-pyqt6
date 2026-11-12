@@ -1,0 +1,9 @@
+id da fonte carregada: 0
+famílias: ['DejaVu Sans Mono']
+monoespaçada? True
+fonte fixa sugerida pelo sistema: True
+ícone nulo? False
+pixmap 16x16: 16 x 16
+pixmap 32x32: 32 x 32
+pixmap 64x64: 64 x 64
+ícone de tema (ou alternativa) disponível? True

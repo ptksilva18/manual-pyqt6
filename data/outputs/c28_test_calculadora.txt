@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+collecting ... collected 8 items
+
+c28_test_calculadora.py::test_dominio_valor_conhecido PASSED             [ 12%]
+c28_test_calculadora.py::test_dominio_rejeita_negativo PASSED            [ 25%]
+c28_test_calculadora.py::test_digitar_e_clicar PASSED                    [ 37%]
+c28_test_calculadora.py::test_enter_dispara_calculo PASSED               [ 50%]
+c28_test_calculadora.py::test_validador_bloqueia_texto PASSED            [ 62%]
+c28_test_calculadora.py::test_varios_valores[0-1.01] PASSED              [ 75%]
+c28_test_calculadora.py::test_varios_valores[500-51.52] PASSED           [ 87%]
+c28_test_calculadora.py::test_varios_valores[3000-304.04] PASSED         [100%]
+
+============================== 8 passed in 0.05s ===============================

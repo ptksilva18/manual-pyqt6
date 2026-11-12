@@ -1,0 +1,2 @@
+mensagem: Informe a tag do equipamento.
+aceito: Ensaio(tag='BOP-01', pressao_bar=1034.2, duracao_min=15.0)

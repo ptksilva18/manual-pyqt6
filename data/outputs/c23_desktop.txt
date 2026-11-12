@@ -1,0 +1,8 @@
+Bandeja do sistema disponível: False; mensagens suportadas: True
+  sem bandeja: use uma janela comum ou notificações pela própria interface
+  tratador interno: host='ensaios', caminho='/TH-01', consulta='aba=graficos'
+openUrl(engapp://...) -> True
+QCameraPermission      Granted
+QMicrophonePermission  Granted
+QLocationPermission    Granted
+requestPermission(local, preciso) -> Granted

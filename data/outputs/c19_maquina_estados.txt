@@ -1,0 +1,6 @@
+entrou: parado | rótulo: Parado
+entrou: pressurizando | rótulo: Pressurizando
+entrou: estabilizando | rótulo: Estabilizando
+entrou: pausado | rótulo: Pausado
+entrou: estabilizando | rótulo: Estabilizando
+máquina finalizada

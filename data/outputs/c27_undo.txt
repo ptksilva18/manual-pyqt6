@@ -1,0 +1,6 @@
+após 3 edições de PT-101:    {'PT-101': 104.0, 'PT-102': 50.0} | índice 1/1 | limpo=False | desfazer: 'PT-101 = 104 bar'
+após macro:                  {'PT-101': 0.0, 'PT-102': 0.0} | índice 2/2 | limpo=False | desfazer: 'Zerar todos'
+undo (macro inteira):        {'PT-101': 104.0, 'PT-102': 50.0} | índice 1/2 | limpo=True | desfazer: 'PT-101 = 104 bar'
+undo:                        {'PT-101': 100.0, 'PT-102': 50.0} | índice 0/2 | limpo=False | desfazer: ''
+redo:                        {'PT-101': 104.0, 'PT-102': 50.0} | índice 1/2 | limpo=True | desfazer: 'PT-101 = 104 bar'
+Ação de menu: 'Desfazer PT-101 = 104 bar' | itens na QUndoView: 3

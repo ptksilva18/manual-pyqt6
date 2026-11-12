@@ -1,0 +1,6 @@
+ordenado por pressão (desc): ['XT-07', 'BOP-01', 'BOP-02']
+filtro ^BOP: ['BOP-01', 'BOP-02']
+^BOP e >= 320 bar: ['BOP-01']
+linha 0 do proxy = linha 1 do modelo-fonte
+transposto: 3 x 3 | linha 0: ['BOP-02', 'BOP-01', 'XT-07']
+concatenado: ['BOP-02', 'BOP-01', 'XT-07', 'MPD-01']

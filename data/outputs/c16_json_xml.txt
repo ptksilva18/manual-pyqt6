@@ -1,0 +1,10 @@
+json.loads ok? True
+QJsonDocument é objeto? True | tag: BOP-01
+<?xml version="1.0" encoding="UTF-8"?>
+<ensaio tag="BOP-01">
+    <leitura>344.8</leitura>
+    <leitura>345.1</leitura>
+    <leitura>345.0</leitura>
+</ensaio>
+stream reader: [344.8, 345.1, 345.0] | erro? False
+DOM carregado? True | atributo tag: BOP-01 | nº de <leitura>: 3

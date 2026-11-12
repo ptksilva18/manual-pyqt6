@@ -1,0 +1,8 @@
+registerDocumentation: True; namespace: br.manual.ensaios.1.0
+Documentações registradas: ['br.manual.ensaios.1.0']
+Índice 'QThread' -> 'Concorrência e threads': qthelp://br.manual.ensaios.1.0/doc/threads.html#qthread
+Índice 'estanqueidade' -> 'Teste de estanqueidade': qthelp://br.manual.ensaios.1.0/doc/estanqueidade.html
+fileData(): 307 bytes; contém 'moveToThread': True
+Título exibido: Concorrência e threads
+Busca 'pressão': 1 resultado(s)
+  Teste de estanqueidade — estanqueidade.html

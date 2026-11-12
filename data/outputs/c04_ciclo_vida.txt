@@ -1,0 +1,4 @@
+quitOnLastWindowClosed = True
+título: Janela única | Calculadora de Engenharia
+aboutToQuit: salvar configurações aqui
+event loop encerrado; código = 0

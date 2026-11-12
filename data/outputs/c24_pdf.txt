@@ -1,0 +1,3 @@
+PDF gerado: 12558 bytes
+PdfViewerEnabled: True
+loadFinished: True; URL: relatorio.pdf; título: 'relatorio.pdf'

@@ -1,0 +1,4 @@
+WARNING  qt: [default] aviso emitido pelo codigo Python
+ERROR    qt: [default] erro critico simulado
+WARNING  qt: [default] QPainter::begin: Paint device returned engine == 0, type: 2
+INFO     app: aplicação encerrada normalmente

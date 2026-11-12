@@ -1,0 +1,5 @@
+campoTag recebeu foco
+bloqueado: '1' em campoTag
+bloqueado: '0' em campoTag
+texto final: PTx
+sem filtro: PTx9

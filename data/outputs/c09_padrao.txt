@@ -1,0 +1,4 @@
+getDouble -> (1.5, False)
+valor após concluir: -1 (autoReset reinicia para -1) | cancelado? False
+filtros: ['Ensaios (*.json *.csv)', 'Todos (*)']
+arquivo escolhido? False

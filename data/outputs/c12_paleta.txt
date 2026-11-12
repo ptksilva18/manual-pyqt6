@@ -1,0 +1,3 @@
+esquema do sistema: Unknown
+cor de fundo do botão: #2b2d31
+texto desabilitado: #6b6e74

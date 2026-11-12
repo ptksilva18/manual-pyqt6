@@ -1,0 +1,4 @@
+csv.DictReader: [('BOP-01', '345,0'), ('BOP-02', '310,5')]
+tipos pandas: {'tag': 'str', 'pressao_bar': 'float64', 'data': 'datetime64[us]'}
+média de pressão: 327.75
+modelo: 2 x 3 | (1, 1): 310.5

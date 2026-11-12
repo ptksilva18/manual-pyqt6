@@ -1,0 +1,4 @@
+composição: OK
+herança: OK
+campo via composição: campoNome
+campo via herança:    campoNome

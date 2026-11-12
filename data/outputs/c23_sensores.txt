@@ -1,0 +1,2 @@
+Tipos de sensor com backend nesta máquina: []
+Acelerômetro indisponível: connectToBackend() = False — a interface deve ocultar a função ou usar outra fonte de dados.

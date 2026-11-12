@@ -1,0 +1,5 @@
+sistema de unidades id = 2
+marcado: Petroleiro
+modo edição: ligado
+modo edição: desligado
+accepted

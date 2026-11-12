@@ -1,0 +1,6 @@
+drivers disponíveis: ['QPSQL', 'QSQLITE', 'QOCI', 'QMIMER', 'QIBASE', 'QODBC', 'QMARIADB', 'QMYSQL']
+último id inserido: 3
+  BOP-01     345.0 bar
+  XT-07      690.0 bar
+erro: ConnectionError | UNIQUE constraint failed: ensaio.tag
+registros após rollback: 3

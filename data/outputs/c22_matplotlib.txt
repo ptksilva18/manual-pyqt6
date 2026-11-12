@@ -1,0 +1,3 @@
+Título: ζ = 0.20, ωn = 4.0 rad/s — sobressinal 52.7 %
+Sobressinal teórico para ζ = 0.20: 52.7 %
+Após ζ = 0.70: ζ = 0.70, ωn = 4.0 rad/s — sobressinal 4.6 %

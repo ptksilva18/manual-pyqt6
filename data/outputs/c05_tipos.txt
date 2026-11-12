@@ -1,0 +1,12 @@
+QPoint soma: 15 25
+QRect contém (150, 50)? True
+centro: 99 49
+right(): 199 | width(): 200
+deslocado (10, 10): 10 10
+QSize escalado mantendo proporção: 800 x 450
+data ISO: 2026-11-11
++90 dias: 09/02/2027
+dia da semana (1=seg): 3
+duração (h): 33.5
+host: doc.qt.io | caminho: /qt-6/qobject.html | fragmento: signals
+arquivo local: file:///dados/ensaio.csv
