@@ -8,9 +8,11 @@ Disponível em **português (pt-BR)** e em **inglês** · [Read in English](READ
 [![REUSE](https://img.shields.io/badge/REUSE-conforme-green)](REUSE.toml)
 
 Um manual didático que vai do primeiro `QApplication` até uma aplicação técnica completa, testada e
-empacotada. Cada listagem de código foi **executada e verificada**: a saída impressa no manual é a
-saída real do programa. A edição em inglês é uma localização completa — identificadores, comentários,
-mensagens e saídas traduzidos, todas as listagens reexecutadas e capturas e diagramas regerados — com a
+empacotada. 163 das 169 listagens de código foram **executadas e verificadas** (139 diretamente e 24
+pela listagem que as carrega); as outras 6 são 4 arquivos de apoio e 2 exemplos só para Windows. A
+saída impressa no manual é a saída real do programa. A edição em inglês é uma localização completa —
+identificadores, comentários, mensagens e saídas traduzidos, todas as listagens executáveis
+reexecutadas e capturas e diagramas regerados — com a
 mesma numeração de capítulos, seções, figuras, tabelas e listagens da edição em português.
 
 | | |

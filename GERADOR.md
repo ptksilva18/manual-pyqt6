@@ -36,7 +36,7 @@ Resultados de uso único já incluídos em `data/`:
 ## Fluxo
 
 ```bash
-python runner.py                 # executa todas as listagens (opções na 1a linha "# runner: ...")
+python runner.py                 # executa todas as listagens executáveis (opções na 1a linha "# runner: ...")
 python shots2.py                 # capturas das Partes I e II (inclui shots.py)
 python shots3.py                 # capturas das Partes III e IV (xcb/offscreen, 2x)
 python shots4.py                 # Figuras 31.2 e 31.3 (janela e relatório do projeto integrador)

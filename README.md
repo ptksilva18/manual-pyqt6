@@ -8,10 +8,12 @@ Available in **English** and in **Brazilian Portuguese** · [Leia em português]
 [![REUSE](https://img.shields.io/badge/REUSE-compliant-green)](REUSE.toml)
 
 A teaching manual that goes from the first `QApplication` to a complete technical application, tested
-and packaged. Every code listing was **run and verified**: the output printed in the manual is the
-program's actual output. The English edition is a full localization, not just a text translation:
-identifiers, comments, messages and outputs were translated, every listing was run again in its
-English form, and the screenshots and diagrams were regenerated from the English code.
+and packaged. 163 of the 169 code listings were **run and verified** (139 directly, 24 through the
+listing that loads them); the other 6 are 4 support files and 2 Windows-only examples. The output
+printed in the manual is the program's actual output. The English edition is a full localization,
+not just a text translation: identifiers, comments, messages and outputs were translated, every
+runnable listing was run again in its English form, and the screenshots and diagrams were
+regenerated from the English code.
 
 | | English edition | Portuguese edition (pt-BR) |
 |---|---|---|

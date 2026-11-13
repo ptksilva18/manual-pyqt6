@@ -43,7 +43,7 @@ One-off results already included:
 
 ```bash
 export MANUAL_LANG=en
-python runner.py                 # runs every listing (options on the first line, "# runner: ...")
+python runner.py                 # runs every runnable listing (options on the first line, "# runner: ...")
 python en/shots2.py              # screenshots of Parts I and II (includes en/shots.py)
 python en/shots3.py              # screenshots of Parts III and IV (xcb/offscreen, 2x)
 python en/shots4.py              # Figures 31.2 and 31.3 (window and report of the capstone project)
